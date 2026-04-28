@@ -1,0 +1,15 @@
+Report
+Your report should be in Jupyter format and address the following case questions:
+How much energy is currently curtailed annually across the Orkney Isles?
+How much can this be reduced by different levels of DR penetration?
+How many local households would need to be on our DR scheme in order to supply this level of DR?
+
+ Your written report should be:
+Well-structured, with ideas presented in a logical sequence
+Concise and accurate — remove or rephrase long, ambiguous sentences
+In the active (rather than passive) voice
+Free from spelling and grammatical errors.
+
+Any additional information along the report should be submitted ideally in a single Jupyter Notebook file. If you need to submit multiple files, please explain in your report the reasoning of that and what information is provided in each file for ease of marking.
+Before you submit your report, ensure someone in your team has completed a full QA (quality assurance) check. This should include proofreading all written material.
+

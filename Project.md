@@ -100,16 +100,18 @@ Annual curtailed energy (MWh/year)  ──►  £ value at wholesale price
 
 Everything else (number of homes, switch-on schedules, model accuracy gains) ultimately has to be converted into this £/year number — that is the language the CEO speaks.
 
-### 3.3 Hypotheses we will state and test
+### 3.3 Findings statement (not a formal hypothesis)
 
-The project guidelines require explicit hypotheses. Likely candidates:
+The project guidelines do **not** require us to formulate an explicit, testable hypothesis up front. Instead we will close the analysis with a **findings statement** — a clear, evidence-backed explanation of what the data shows, framed for both the technical (Kaluza data team) and executive (CEO/board) audiences.
 
-- **H1:** A non-trivial fraction (>X%) of Orkney's annual wind generation is currently curtailed.
-- **H2:** Curtailment events are concentrated in identifiable periods (e.g. windy winter nights), making them tractable for DR.
-- **H3:** A realistic level of household enrolment (e.g. <Y% of Orkney's housing stock) can absorb a meaningful share of curtailment.
-- **H4:** The £/year value of avoided curtailment exceeds plausible DR-scheme implementation costs.
+The findings statement will articulate, at a minimum:
 
-Final wording will be locked in once exploratory analysis is done.
+- The **scale of curtailment** observed in Orkney over the analysis window (MWh/year and £/year).
+- The **shape of the curtailment** — when it occurs, how concentrated it is in time, and therefore how tractable it is for DR.
+- The **household enrolment levels** required to absorb meaningful fractions of that curtailment, and the diminishing-returns point.
+- The **business-case verdict** — what the prize is worth and the key sensitivities/assumptions behind that number.
+
+Final wording will be locked in once Stage 2–5 analysis is complete; we should resist pre-committing to a number before the data tells us what it is.
 
 ---
 
@@ -182,32 +184,41 @@ The notebook should walk a reader through these steps, in order. Keep it simple 
 - Per-turbine sanity checks: power vs. wind scatter, setpoint distribution.
 - Per-household sanity checks: demand profile shape (morning / evening peaks).
 
-### Stage 2 — Quantify curtailment (Question 1)
+### Stage 2 — Build & analyse the power curve (mandatory deliverable)
 
-- Fit a turbine **power curve** from uncurtailed periods.
-- For each curtailed minute, compute counterfactual generation.
-- Aggregate to **MWh/year** across all turbines on Orkney (scaling assumptions documented).
+A fitted **power curve is a required output of this project**, not an intermediate artefact. It is both the basis for quantifying curtailment and a standalone analytical deliverable that must be presented and discussed in the report.
+
+- Filter the turbine telemetry to **uncurtailed periods only** (i.e. `Setpoint_kw` at nameplate, no flagged downtime).
+- Fit `Power_kw = f(Wind_ms)` — start with the canonical empirical shape (cut-in, ramp, rated plateau, cut-out) before considering any fancier model.
+- **Plot and analyse the curve**: cut-in wind speed, rated wind speed, rated power, cut-out behaviour, scatter / residuals around the fit, and any drift across the 2015–2018 window. Comment on what the shape implies about turbine behaviour.
+- Use the curve as the **counterfactual generator**: for each curtailed timestamp, expected generation = power-curve(`Wind_ms`).
+- Sanity-check the curve against published manufacturer curves where possible.
+
+### Stage 3 — Quantify curtailment (Question 1)
+
+- For each curtailed minute, compute counterfactual − actual energy using the Stage 2 power curve.
+- Aggregate to **MWh/year** across all turbines on Orkney (scaling assumptions documented — see HSO FAQ on scaling a single turbine to a fleet of ~500).
 - Apply a wholesale price assumption (e.g. £/MWh) to give a **£/year** figure.
 
-### Stage 3 — Model the demand side
+### Stage 4 — Model the demand side
 
 - Compute average and peak per-household demand.
 - Identify **flexible load** (heating, hot-water-style profiles) — the share of demand that DR can realistically dispatch.
 - Build a profile of how much each household could absorb during a curtailment event.
 
-### Stage 4 — Match supply to demand (Questions 2 & 3)
+### Stage 5 — Match supply to demand (Questions 2 & 3)
 
 - For each curtailment event in the 2017 overlap year, simulate switching on N enrolled households.
-- Sweep N from small (e.g. 100 homes) to large (≈ all of Orkney's ~10,000 households).
+- Sweep N from small (e.g. 100 homes) to large (≈ all of Orkney's ~10,385 households).
 - Plot **avoided curtailment vs. household enrolment** — identify the diminishing-returns point.
 
-### Stage 5 — Value & sensitivity
+### Stage 6 — Value & sensitivity
 
 - Convert avoided MWh to £ at sensible wholesale price scenarios (low / central / high).
 - Document every assumption and its sensitivity (Kaluza's data scientist explicitly recommends being transparent about assumptions to stakeholders).
 - Add a rule-of-thumb time buffer: estimate work, multiply by three.
 
-### Stage 6 — Communicate
+### Stage 7 — Communicate
 
 - One-paragraph value statement in plain English.
 - £/year prize size, household count required, key risks.
