@@ -1,0 +1,263 @@
+My name is James Scofield.
+And I'm a Senior Data Scientist at Kaluza, which was formerly
+part of OVO Energy.
+[MUSIC PLAYING]
+Kaluza's mission statement is to securely connect all devices
+to a low-carbon electric power system.
+Now, this mission statement probably
+needs unpacking a bit and some context,
+because it doesn't make much sense on its own.
+So for the non-power system engineers out there,
+the one thing you need to know about the electric power system
+is that supply and demand have to be
+balanced equal to each other at all points in time.
+The way that's historically been done
+is that we've used the supply side to follow the demand side.
+So that means we've turned on more power plants
+or turned some up when the demand is increasing and turned
+them off or turned some down when the demand is decreasing,
+which has been fine, because we can control fossil fuel
+generation.
+However, as we're moving to our low-carbon future,
+we will have to incorporate renewable energy, which--
+for example, wind or solar--
+which we can't control.
+And if we can't control the supply side,
+we're going to have to balance the system by involving
+the demand side, which is where we come in.
+Now, this problem has also been exacerbated
+by the uptake of electric vehicles, which
+is going to massively increase the peak to average use
+of the power system and, again, to necessitate massive, very
+expensive upgrades in the infrastructure
+in order to incorporate them, unless we start
+doing some smart charging.
+And smart charging here means spreading that peak
+around the day, but still delivering the service
+that people want from their electric vehicles.
+So that might mean for you, if you have one,
+you get home from work, you plug it in, and you say,
+I just need this car charged by 7 AM in the morning,
+and then leave it to us.
+We'll sort out the optimal charging schedule
+which will deliver a full battery of energy for you
+at the lowest possible cost, which will also
+be good for the power system.
+[MUSIC PLAYING]
+A typical day would start with stand-up
+in the morning, which is when the whole team stands up
+together, just for five minutes.
+Everyone very quickly mentions what they did the previous day
+and what they plan to do this day.
+It's also when any risks, blockers, issues
+can get mentioned and ideally unblocked so that people
+can continue with their work.
+And this is quite a nice way to keep a view on what
+the rest of the team is doing.
+The actual work of the day is typically coding.
+So that could either be data analysis or developing the code
+for a data-driven application.
+And also, for the data scientist meetings
+with stakeholders to understand what people want--
+these regular check-ins are very important.
+But it's also important to balance the development
+time against the meeting time.
+And ideally, we want to have a bit more development time
+than meeting time.
+[MUSIC PLAYING]
+I'll tell you an anecdote first.
+When I started doing my PhD in 2011 with Professor Goran
+Strbac over in the EEE department at Imperial,
+one thing that he drilled into all of his students
+was, the value of anything can only
+be compared to the cost of the alternative.
+And that's absolutely true for data science, as well.
+Whenever we start a new project, the first thing
+that we need to do is to benchmark where we are,
+which means we look at the current situation
+and we find or design a metric to measure
+the value of that current situation
+or the cost of that current situation.
+Then we perform whatever work we're
+going to do in this project.
+And we re-run that metric on the new situation.
+So let's say it's a predictor.
+The incumbent would be--
+let's say you're getting an accuracy of 70%.
+And after a week's worth of work on a new predictor,
+you're getting an accuracy of 75%.
+Well, that's still not value.
+But we need to convert that additional 5% inaccuracy
+into a financial term that's the value for the business.
+[MUSIC PLAYING]
+Moonshots are quite often what all data scientists want to do.
+The reality is that it's not easy to do them
+unless the business has some slack--
+i.e.
+time that developers can put into these moonshots
+and, more importantly, time that the business has already
+accepted it might lose without any return.
+Now, choosing those moonshots is the same as choosing anything.
+You first of all have to understand,
+what is the value proposition if it works?
+And for a moonshot, because the chance of failure
+is obviously quite high, that value
+also has to be quite high, because the probability
+of success times the value is what you're
+going to get in expectation.
+[MUSIC PLAYING]
+To convey value to non-technical stakeholders
+or decision-makers, it's absolutely crucial
+to use language that they understand.
+So stick to the very concise value statement
+in plain English, or at least the domain language
+that you use in the business.
+And also, explain the assumptions you made,
+because not all of your assumptions might be correct.
+Explain to the stakeholder where you
+think there's a chance some of your assumptions might be wrong
+and what the impact of those assumptions being wrong
+might be, because ultimately, they have to make the call.
+I've found that being absolutely clear on potentially getting
+stuff wrong has never been a negative in my relationship
+with stakeholders.
+And they've always appreciated the candour of explaining
+errors.
+[MUSIC PLAYING]
+In Kaluza, our product is controlling
+real, physical assets.
+So everything we do is related to physical devices
+or infrastructure.
+And it's not just infrastructure,
+but it's also critical infrastructure,
+because we're dealing with things
+that are affecting the smooth functioning of the power
+system.
+So obviously, for us, security is our number one concern.
+And we devote a lot of our resources
+to making sure we have world-class security
+on our system.
+[MUSIC PLAYING]
+As for the data that we deal with, of course,
+you can tell an awful lot from someone's energy consumption
+profile--
+the most obvious thing being when they're home.
+So it's absolutely critical to make sure
+that the personal details, or PII in GDPR lingo,
+are kept very separately from the telemetry
+that we're getting from devices.
+The way we do that and the way we've always
+done that, even prior to GDPR, is that we
+build in privacy by design.
+And that can be, for example, keeping
+all of the PII data, or Personally
+Identifiable Information data, in a completely separate
+database with a linking table to the telemetry.
+That way, if we ever need to remove someone from the system,
+it's just a case of deleting the linking table.
+And there will be no link at all between the PII
+and the telemetry we're taking.
+[MUSIC PLAYING]
+In Kaluza, our whole business is IOT.
+So from the get-go, we're dealing with devices.
+Now, one thing you need to know about devices
+is that they run firmware.
+Firmware is typically coded in a low-level language,
+like C or C++.
+And the devices are running at the end of a potentially low
+bandwidth connection.
+So one thing that comes out of this
+is that you can only update the software very infrequently.
+And it's always actually quite high-risk when you update it,
+because if the update doesn't go smoothly,
+you have to send a person out to try and fix it.
+The way to manage this risk is, you
+have to define upfront, and very clearly, the interface
+and the functionality that you need this firmware to provide
+with the rest of your system.
+And ideally, you need to get it right in the first time
+or, if not the first time, at least
+the second time, because it's very expensive to update it.
+Lastly, I'd say, always check assumptions.
+Physical devices often come with data sheets
+which will tell you how they're going
+to behave under perfect physical conditions,
+or at least ideal conditions.
+Reality is seldom ideal.
+And you're often going to see a device behaving in a way
+that you didn't expect.
+Finding this before you deploy into production
+or before you release a product is absolutely golden.
+And the only way to do that is to get your hands
+on some physical devices and play around with them.
+[MUSIC PLAYING]
+When did I realise I wanted to become a data scientist?
+Well, it's a bit of a funny story for me,
+because I accidentally became a data scientist when someone
+invented the word "data science,"
+and I realised that that's what I was doing.
+I think this was sometime in 2011.
+And if you're interested, you can look at Google Trends
+and see when the term "data science" suddenly picked up
+in popularity, which is roughly when all businesses started
+wanting data scientists.
+It was very useful for me and very fortuitous for me.
+I guess I was very lucky with that.
+[MUSIC PLAYING]
+Off the top of my head, I'd say I
+can think of three things that are misconceptions for people
+who are starting out in data science
+or for people who are outside of data science, looking in.
+The first is that it's all AI and highly complex.
+This just isn't true.
+Most of the solutions that we create are very simple.
+A high school student would probably
+be able to understand the mathematics of them.
+But they do the job.
+And they were able to be delivered quickly.
+And therefore, they deliver more value
+than the more complex solution.
+The second misconception I've often come across
+is how long stuff takes.
+Now, I've got a rule of thumb for this.
+I try to imagine how long the job would take
+if everything went perfectly.
+So that's with, all of my assumptions
+are correct, everything works fine,
+I didn't have any code issues.
+And then once I have an estimate for the perfect time,
+I multiply that by three.
+The third misconception I quite often see
+is what people expect to spend most of their time doing.
+Now, the sad truth of data science
+is, you need data, which means that most of your time
+is spent accessing data, transforming data, and cleaning
+data to get it into the right shape
+to use in whatever algorithm you're developing.
+And the typical time split, at least at entry level,
+I would say, is about 70/30.
+[MUSIC PLAYING]
+For people starting out in data science today,
+I'd probably give two pieces of advice.
+One, focus on the basics.
+So that's your probability theory, regression analysis,
+because most of what you do is going
+to be the simple stuff delivered fast--
+the low-hanging fruit in the business, basically.
+And the other thing is, do invest some time
+in developing your coding ability.
+You're going to be working in a team.
+Your team will thank you for writing clean code.
+[MUSIC PLAYING]
+My advice for someone wanting to get into energy analytics
+is to really prioritise networking.
+Go to meet-up events.
+Use your contacts-- maybe it's alumni contacts.
+If anyone is interested, I'm very
+happy to speak to you about what we do.
+And finally, show your enthusiasm for the area.
+We love to hire enthusiastic people.
+And in fact, I might even go as far
+as saying we don't ever really hire
+people who aren't enthusiastic for the vision and the product
+that we're creating.

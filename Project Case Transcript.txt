@@ -1,0 +1,40 @@
+The exercise we're providing is based on a trial
+that we're running in partnership
+with Community Energy Scotland in the Orkney Isles.
+The situation in Orkney is that they
+have a lot of wind generation but a limited capacity
+connector to the mainland.
+Now when they have high wind, they're
+obviously generating a lot of power from these wind turbines.
+It can be the case that they max out
+the capacity of this connector, and they
+have to curtail some of that wind energy.
+Now there could potentially exist a situation
+where we switch on local devices, so electric heaters,
+for example, in homes in Orkney, and consume
+some of this otherwise curtailed wind energy.
+This opens up the potential for future commercial arrangements,
+where locals get a discount energy rate when
+this curtailment is ongoing.
+And the generators get some revenue for where--
+versus the previous situation where
+that energy would be curtailed, and they
+would get zero revenue for it.
+This exercise is really a business case development
+exercise.
+We're going to provide you with data
+from the turbines, local load.
+Of course, I'll explain a bit more
+about the situation and some of the engineering
+that you're going to need to know.
+But the general question is, what
+would be the value of rolling out such a system
+across the Orkney Isles?
+
+Case Questions:
+The first step in determining whether there is a business case for the above sustainable solution is to estimate the total value that might be generated from an Orkney-wide DR scheme. The value of anything can only be measured relative to the cost of the alternative. We shall therefore set the incumbent situation on Orkney as our baseline and measure this against the relative value of a DR scheme. The metric of measurement will be the amount of energy curtailed in a year and the value of this energy.
+How much energy is currently curtailed annually across the Orkney Isles?
+How much can this be reduced by different levels of DR penetration?
+How many local households would need to be on our DR scheme in order to supply this level of DR?
+
+
