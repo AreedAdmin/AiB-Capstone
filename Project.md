@@ -242,10 +242,12 @@ Per the official project guidelines (see `Class Documentation/Project Guidlines/
 
 - [ ] **Title page** — accurate, informative title
 - [ ] **Summary** — one paragraph: objective, procedure, results, discussion, conclusion
-- [ ] **Introduction** — business problem + hypotheses + approach overview
+- [ ] **Introduction** — business problem, three core questions, approach overview
 - [ ] **Technologies & techniques** — exact, reproducible process description
+- [ ] **Power curve** — fitted curve, plot, parameters, and analytical commentary (mandatory)
 - [ ] **Results** — descriptive stats, figures, tables, captions, explanations
-- [ ] **Discussion** — overall trend, hypothesis verdict, errors, strengths/limitations
+- [ ] **Findings statement** — clear, evidence-backed explanation of what the data shows (in lieu of a formal hypothesis verdict)
+- [ ] **Discussion** — overall trend, errors, strengths/limitations
 - [ ] **Limitations & future directions**
 - [ ] **References** (with proper citation convention)
 - [ ] **Technical appendices** (well-organised, easy for the client's team to re-run)
@@ -258,8 +260,8 @@ The talk should be **Introduction → Results → Discussion**. Skip the technic
 
 We will be assessed on:
 
-- Hypothesis formulation & validation
-- Quality of technical analysis
+- Clarity and evidence-quality of the **findings statement** (no formal hypothesis is required by the brief)
+- Quality of technical analysis — including the fitted **power curve** and curtailment quantification
 - Storytelling & communication
 - Actionable insight & feedback to the client
 - Reflection & constructive feedback
