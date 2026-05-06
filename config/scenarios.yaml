@@ -1,0 +1,26 @@
+# Penetration grid (households enrolled in the DR scheme).
+# Drives the avoided-curtailment vs N curve in §9.
+penetration_grid:
+  - 0
+  - 100
+  - 250
+  - 500
+  - 1000
+  - 2000
+  - 3000
+  - 5000
+  - 7500
+  - 10000
+  - 10385
+
+# Penetration target levels for headline reporting.
+penetration_targets_pct: [5, 10, 25, 50, 100]
+
+# Avoided-curtailment targets used for the inverse Q3 lookup.
+avoidance_targets_pct: [25, 50, 80, 95]
+
+# Wholesale price scenarios (£/MWh).
+price_scenarios:
+  low: 35.0
+  central: 45.0
+  high: 55.0
