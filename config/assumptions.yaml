@@ -1,0 +1,56 @@
+# Heat Smart Orkney — central assumption register.
+# Every numeric assumption made in the report lives here. The notebook reads this
+# file and prints it as a table; sensitivity sweeps mutate values via papermill.
+
+# A1 — Orkney households (HSO FAQ).
+n_households_orkney: 10385
+
+# A2 — Fleet size (single turbine in the dataset, scale to fleet per HSO FAQ).
+fleet_size: 500
+fleet_size_sensitivity: [250, 500, 750, 1000]
+
+# A3 — Inter-turbine correlation factor (1.0 = perfectly correlated curtailment;
+# <1 reflects geographic / setpoint diversity across the fleet).
+fleet_correlation: 1.00
+fleet_correlation_sensitivity: [0.85, 1.00]
+
+# A4 — Storm cutout thresholds (HSO FAQ).
+storm_mean_ms: 25.0
+storm_peak_ms: 30.0
+
+# A5 — Nameplate detection threshold (fraction of modal setpoint).
+nameplate_threshold: 0.99
+nameplate_threshold_sensitivity: [0.95, 0.99]
+
+# A6 — Flexible-load fraction (share of variable demand that DR can dispatch).
+f_flex: 0.40
+f_flex_sensitivity: [0.20, 0.40, 0.60]
+
+# A7 — Household availability factor at any given event.
+availability: 0.70
+availability_sensitivity: [0.50, 0.70, 0.90]
+
+# A8 — Wholesale price (£/MWh), 2017 day-ahead reference.
+wholesale_price_gbp_per_mwh: 45.0
+wholesale_price_low: 35.0
+wholesale_price_high: 55.0
+
+# A9 — Per-radiator retrofit (HSO FAQ).
+retrofit_gbp_per_radiator: 100.0
+
+# A10 — Quantum heater unit cost (HSO FAQ: current price scaled 50% to 2017).
+quantum_heater_gbp: 600.0
+quantum_heater_sensitivity: [450.0, 600.0, 750.0]
+
+# A11 — Kaluza value share of avoided-curtailment value.
+kaluza_value_share: 0.333
+kaluza_value_share_sensitivity: [0.25, 0.333, 0.50]
+
+# A12 — Subsidy break-even tiers (HSO FAQ).
+subsidy_tiers: [0.25, 0.50, 0.75, 1.00]
+
+# A13 — Anomaly handling for Sept-Oct demand jump.
+exclude_demand_anomaly: true
+
+# A14 — Time zone of raw timestamps (flagged for client confirmation).
+timezone: "UTC"
