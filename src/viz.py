@@ -1,12 +1,14 @@
 """Consistent plot styling for the HSO report.
 
-A single helper applies the same matplotlib style across every figure so the report
-and the slide deck look like one coherent document.
+We standardise on **Plotly** for the report charts so the rendered HTML
+artefact is interactive (hover tooltips, pan, zoom). Matplotlib remains
+available for ad-hoc work but is not used by the notebook.
 """
 
 from __future__ import annotations
 
-import matplotlib.pyplot as plt
+import plotly.graph_objects as go
+import plotly.io as pio
 
 PALETTE = {
     "wind": "#1f77b4",
@@ -18,23 +20,32 @@ PALETTE = {
 
 
 def apply_style() -> None:
-    """Apply the project plot style. Call once at the top of the notebook."""
-    plt.rcParams.update(
-        {
-            "figure.figsize": (8.0, 4.5),
-            "figure.dpi": 110,
-            "savefig.dpi": 150,
-            "savefig.bbox": "tight",
-            "axes.spines.top": False,
-            "axes.spines.right": False,
-            "axes.titlesize": 12,
-            "axes.titleweight": "bold",
-            "axes.labelsize": 11,
-            "axes.grid": True,
-            "grid.alpha": 0.25,
-            "grid.linestyle": "--",
-            "legend.frameon": False,
-            "legend.fontsize": 10,
-            "font.family": "sans-serif",
-        }
+    """Register the project's default plotly template."""
+    template = go.layout.Template()
+    template.layout = go.Layout(
+        font=dict(family="Inter, Helvetica, Arial, sans-serif", size=12),
+        title=dict(font=dict(size=14)),
+        plot_bgcolor="#ffffff",
+        paper_bgcolor="#ffffff",
+        xaxis=dict(showgrid=True, gridcolor="#eeeeee", zeroline=False),
+        yaxis=dict(showgrid=True, gridcolor="#eeeeee", zeroline=False),
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0),
+        margin=dict(l=60, r=20, t=60, b=50),
+        hovermode="x unified",
+        colorway=[
+            PALETTE["wind"], PALETTE["curtailment"], PALETTE["demand"],
+            PALETTE["absorbed"], PALETTE["neutral"], "#ff7f0e", "#17becf",
+        ],
     )
+    pio.templates["hso"] = template
+    pio.templates.default = "hso"
+    # Inline rendering: plotly.js is embedded directly in the notebook
+    # output, so the rendered HTML and slide deck work offline.
+    pio.renderers.default = "notebook"
+
+
+def figure(title: str, *, height: int = 420, width: int | None = None) -> go.Figure:
+    """Return a styled, empty plotly figure with our default layout."""
+    fig = go.Figure()
+    fig.update_layout(title=title, height=height, width=width)
+    return fig
