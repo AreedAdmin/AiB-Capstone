@@ -1,24 +1,3 @@
-# Heat Smart Orkney — Notebook Pipeline Plan (`pla.md`)
-
-> **Owner:** AiB 2026 capstone team · **Client:** Kaluza × Community Energy Scotland · **Last reviewed:** 2026-05-06
->
-> This document is the engineering blueprint for the consultancy deliverable. It maps every section of the Jupyter notebook, every dataset transformation, every figure, every assumption that must be logged, and the toolchain that turns the notebook into both a **technical HTML/PDF report** (for Kaluza's data team) and an **executive slide deck** (for the CEO/board).
->
-> Read `Project.md` first for business context. This file is the *how*.
-
----
-
-## 0. Guiding Principles
-
-1. **Single source of truth.** One Jupyter notebook (`HSO_report.ipynb`) drives every output: technical report (HTML/PDF) and executive slides (reveal.js). No copy-pasting numbers between artefacts. Every figure and headline number is computed in code, cached to `outputs/`, and embedded by reference.
-2. **Reproducibility before sophistication.** A high-school-level model that reproduces deterministically is worth more than a state-of-the-art model that doesn't. Pin the environment, seed every RNG, version the data hash.
-3. **Assumption log is a first-class artefact.** Every numerical assumption (turbine count, wholesale price, flexible-load fraction, etc.) lives in a single YAML/JSON file (`config/assumptions.yaml`) and is shown in an explicit table in the report. Sensitivities are run by sweeping that file.
-4. **Two audiences, one notebook.** Board-level cells are tagged for the slide export; deep-dive cells are tagged `skip` for slides but render in the technical report. We never maintain two narratives by hand.
-5. **2017-only worldview.** Per the HSO FAQ, we are "in 2017" — no post-2017 data, no hindsight. Every external reference must be archive-dated ≤ 2017.
-6. **The prize is in £/year.** Every analytical thread must terminate in £/year at the headline level. Methodology that doesn't ladder to that number is appendix material.
-
----
-
 ## 1. Repository Layout (target end-state)
 
 ```
