@@ -1,0 +1,191 @@
+Question: I looked into the electricity consumption in the domestic sector on Orkney Isles in 2017 and found great inconsistency between your data and the official data. It seems like if we base our research on your data, we will end up with significantly underestimating the potential of DR market.
+Answer: First of all, well done on conducting desk research and approaching the data with a critical mindset — this is exactly the kind of proactive, analytical thinking that we encourage and value in this field. I have also discussed our answer with Alfonso who designed this case study based on a real client experience. 
+To clarify: Alfonso's  team worked on this case as consultants 8 years ago, and the dataset in question was created precisely because of the inconsistencies and gaps in publicly available data at the time- which is different than what you access now. When they first developed the exercise, the official statistics you're now referencing simply weren’t available. If consultants had access in 2017 to the data that only became available years later, the entire approach would have been different. Remember also that in this case, we assume we are at year 2017.
+This exercise is not about achieving perfect historical accuracy. Rather, it’s about working with what’s available at the time — which is a fundamental reality of consultancy work. In practice, consultants rarely have access to complete or up-to-date data during project delivery. Using data that didn’t exist in 2017 would make the exercise unrealistic and defeat its purpose. Therefore, Shameena is right to say that the AiB dataset should be treated as the scenario available then, designed to reflect the type of internal estimates a client might provide — and the way consultants must critically assess and work with such information.
+Secondly, please remember that this dataset was provided by the client (Kaluza), based on their internal estimates. These may very well be off from the true figures — and that’s okay. You’re welcome to present both their estimates and your own adjusted figures when discussing curtailment. Regardless of the source, the overarching insight remains: there is significant curtailment, which leads naturally into your demand management analysis.
+For that component, you’ll need to develop demand penetration scenarios. Since we don't have concrete data on demand-side technology adoption, you can assume best-case and worst-case scenarios using the number of households as your base.
+Again, thank you for approaching this thoughtfully — your engagement with the data is exactly the kind of critical thinking we aim to develop through the BA programme. But in this case, we are simply in the past, and we assume what is given us is what is available at that time.
+
+Question: Turbine Dataset, One or Many?
+Answer: The data represents a single turbine — this is  indicated in the documentation. You would then need to assume number of turbines and scale it up using this average turbine stat. We suggest you to scale up to 500 turbines or some referenced numbers from 2017 that you think is reasonable — which is great! That’s exactly the kind of initiative we encourage.
+In general, don’t be afraid to make assumptions — it’s a legitimate and essential part of modelling and analysis. What matters is being transparent, make your assumptions clear and share where your numbers come from.
+
+Question:Can we use data that was published after 2017?
+Answer: We can not make use of data that was published after 2017.  You can perhaps try reaching to archives of the reports that was published after 2017,  and find the ones that were published back then (if they have done so). 
+However, as a team as an internal discussion, you can find some interesting inspiring ideas from these reports without using them directly.
+
+Question: What is the assumed discount rate for adopting the new system? How would it be applied?
+Answer: Consider break-even scenarios with subsidies of 25%, 50%, 75%, and 100% of the energy cost to explore various outcomes.
+
+Question: Are there additional costs to consider when generating energy for Orkney locals?
+Answer: Keep it simple. Assume a simplified cost structure with fixed costs per control equipment installation. All other infrastructure costs are assumed to be amortised over time.
+
+Question: How do we define Kaluza’s revenue?
+Answer: "As computing the breakeven point for Kaluza should be part of the analysis, how do we define Kaluza’s revenue? Who is the client, what is the revenue source, and are the technology hub and quantum heater costs classified as variable costs?"
+The revenue model will depend on the strategic approach outlined in your report. For example, you might assume that Kaluza acts as an intermediary between wind farmers and consumers, generating revenue through installation fees from consumers and royalties from wind farms. Other revenue models are also acceptable, and I recommend researching similar case studies for inspiration. Ultimately, defining a viable revenue model is one of the deliverables you’ll need to present to your CEO as part of your business case.
+
+Question: What pricing structure should be applied to the households participating in the DR scheme?
+Answer: Tiered pricing might encourage greater participation while balancing revenue streams. However, fixed pricing could simplify consumer engagement and forecast revenue more effectively.
+
+Question: How should the avoided cost of curtailment be split between Kaluza, consumers, and wind turbine operators?
+Answer: Revenue sharing could provide a sustainable incentive model for each party involved. Experimenting with different split ratios would clarify the most favourable distribution
+
+Question: How does the adoption rate of the DR scheme affect the breakeven point?
+Answer: By modelling the adoption rate against the DR benefits, Kaluza can identify critical thresholds where the cost of technology and deployment is offset by revenue.
+
+
+Question: Should Kaluza consider royalty agreements as an alternative or supplement to consumer-based revenue?
+Answer: By securing royalty agreements with wind operators who benefit from reduced curtailment, Kaluza can stabilise revenue, diversifying beyond the consumer payment structure.
+
+Question: What recurring costs should be anticipated for the technology infrastructure?
+Answer: Maintenance costs on tech deployment may vary by DR adoption level and geographic location, impacting long-term profitability.
+
+
+Question: How do fluctuations in local energy prices affect the financial attractiveness of the DR scheme for consumers?
+Answer: Aligning DR scheme pricing with local energy market trends could make the program more attractive to residents while ensuring profitability for Kaluza.
+
+
+Question: How does reducing curtailment improve Kaluza’s long-term revenue potential?
+Answer: Projecting earnings based on curtailment reductions over time will help assess whether the initial investment in DR technology offers sustained revenue benefits.
+
+
+Question: What role do government subsidies play in making the DR solution financially viable? 
+Answer: Subsidies can significantly lower the financial barrier for households, leading to faster adoption rates and potentially reducing the time for Kaluza to reach profitability.
+
+
+Question: What are some monetisation strategies Kaluza is supportive of to avoid curtailment effectively?
+Answer: In general, we would like to hear your opinions (backed with data) as our consultants, and this is one of the key deliverables we are after. But, let me share some notes from our internal meetings that summarise our position:
+1. Revenue Potential from Avoided Curtailment
+Increased utilisation of renewable energy: By utilising power that would otherwise be curtailed, Kaluza could claim the wholesale value of that energy. For Orkney, this translates to a valuable opportunity to support the local grid, lower emissions, and improve the efficiency of renewable energy use.
+Revenue-sharing agreements: If Kaluza can negotiate agreements with wind turbine operators, it could share in the avoided curtailment value, ensuring a revenue stream that benefits both Kaluza and the generators.
+
+2. Consumer Pricing Models for Curtailment Benefits
+Discounted energy pricing for households: By offering lower-cost energy derived from avoided curtailment, Kaluza can attract more households to the DR scheme. If the energy is significantly cheaper than grid rates, consumer participation will likely increase, creating a robust revenue source.
+Subscription-based models: Implementing a subscription fee for access to curtailed energy, or a tiered pricing model based on usage, would generate predictable revenue from households, offsetting the costs of DR implementation.
+
+3. Government and Regulatory Support
+Subsidies and incentives: Governments often provide subsidies to support renewable energy efficiency and curtailment reduction initiatives. If Kaluza can secure such incentives, the cost of managing avoided curtailment can be reduced, making the revenue more impactful.
+Environmental credits: Avoided curtailment may qualify for environmental credits or certificates, which can be sold to companies seeking to offset their carbon footprint, adding an additional revenue stream.
+
+4. Infrastructure and Operational Costs
+Cost-effectiveness of DR infrastructure: To monetise avoided curtailment effectively, the cost of deploying and maintaining DR technology (such as smart heaters and control hubs) must be lower than the value generated from reduced curtailment.
+Operational efficiency: As a DR solution provider, Kaluza’s revenue would also depend on the efficiency of its operations. Efficient systems for activating and deactivating devices, with minimal downtime, help ensure that avoided curtailment remains a viable revenue source.
+
+5. Market Demand and Consumer Adoption
+Demand for affordable, renewable energy: High local interest in renewable energy at reduced costs would support Kaluza’s pricing model for avoided curtailment. Ensuring competitive pricing and transparency about savings will likely improve adoption.
+Scalability of DR adoption: The revenue from avoided curtailment increases with DR penetration levels. High DR penetration allows Kaluza to capture more of the curtailed energy, improving revenue potential from avoided curtailment in proportion to system demand.
+
+6. Long-Term Contracts with Wind Generators
+Predictability of avoided curtailment revenue: Long-term contracts with wind farms could provide a stable revenue stream by allowing Kaluza to monetise avoided curtailment consistently. This stability is crucial in assessing whether the approach is sustainable.
+
+
+Question: How do subsidies impact revenue models?
+Answer: Subsidies greatly enhance Kaluza’s revenue model by lowering costs, encouraging adoption and improving profit margins. They reduce consumer costs, making the DR program more attractive and accessible, leading to faster market penetration and increased revenue from subscriptions or usage fees. Subsidies also offset infrastructure and maintenance expenses, reducing the breakeven point and increasing profitability. Additionally, they allow Kaluza to offer flexible pricing, free trials or discounted tiers, appealing to a wider range of consumers.
+Subsidies decrease financial risk, making the model more appealing to investors and partners, while aligning with environmental incentives and future regulations. In short, subsidies make Kaluza’s DR solution more financially viable, scalable and resilient.
+
+
+Question: There are missing data points for the turbine telemetry dataset. Why are they missing?
+Answer: This is typical for real-world data, which can often be dirty or incomplete. It’s not unusual for datasets to have gaps.
+
+
+Question: Why is the energy output of the wind turbine 0 kW, even with sufficient wind to produce energy?
+Answer: This could be due to curtailment, which can be verified if the setpoint is set to 0. Otherwise, technical issues might also be the cause.
+
+
+Question: The average daily demand has increased since August 2017—was there an external event that caused this?
+Answer: This may be an anomaly or noise in the data.
+
+Question: The sample size of households increased to 32,000 during Sept–Oct 2017. Is there a reason for this increase?
+Answer: Likely an anomaly. Data quality issues are common in real-world data.
+
+Question: In the residential_demand.csv file, the sample households changed dramatically over time. Why?
+Answer: This is typical of real-world datasets, which can be dirty or corrupt. Part of the challenge here is determining how to handle incomplete data.
+
+Question: How many households are there in the Orkney Islands?
+Answer: Approximately 10,385 households.
+
+Question: Is the demand dataset based on Orkney households or from elsewhere in the UK?
+Answer: Assume it represents Orkney. This is a proxy.
+
+Question: Do we have model data for heat smart devices. Where can I find this information?
+Answer: There are several models available based on heat output (see the link provided below as an example). You can select an average size appropriate for a typical household. In reality, this detail won’t be critical to your overall business case. If you assume retrofitting costs for each radiator, you can estimate around £100 per device. For the quotation heater price, use the current price and scale it down by 50% to reflect the approximate 2017 cost if historical pricing isn’t available.
+
+
+Question: Can you explain the basics of curtailment?
+Answer: Curtailment involves limiting the output of wind turbines to avoid overloading the grid when demand is low or when there’s insufficient infrastructure to store or transmit excess power.
+
+Question: What does it mean if power generated by the turbine exceeds the setpoint?
+Answer: Such instances are infrequent but can occur in real mechanical systems. Wind gusts or blade momentum may cause temporary overages. Consider if these instances are relevant to your big-picture analysis, as some assumptions are acceptable in building the business case.
+
+
+Question: Is there a cut-off speed or safety measure in the turbine?
+Answer: Yes. When the storm control system is activated, the turbine stops if a 10-minute average wind speed exceeds 25 m/s or a peak value of 30 m/s. The protection disengage restarts once the wind speed consistently stays below these thresholds.
+
+Question: Is there a delay in energy generation when wind speed is too high, or can we assume instant energy generation?
+Answer: The delay is negligible for this case study.
+
+Question: What is the rated speed of the turbines?
+Answer: The rated speed parameter is provided but isn’t particularly relevant to this study.
+
+Question: What is the cut-in and cut-out speed of the turbine?
+Answer: Check the data for specifics, though it isn’t crucial for this case study.
+
+
+Question:What is the significance of the setpoint? Is this a physical limit on production, and how is it controlled?
+Answer: The setpoint limits energy generation to prevent exceeding the infrastructure’s capacity to handle power. This is managed holistically across the network.
+
+Question: How fast could a demand-regulated system respond, and should we aggregate the supply data?
+Answer: Demand can be adjusted almost instantaneously, such as turning on a heater when excess wind power is available. You may use minute-by-minute data for supply, but averaging or summing over time could simplify your model.
+
+
+Question:Should we assume residents would pay for curtailed energy as long as it’s cheaper than the alternative?
+Answer: Yes, especially with initial subsidies. In the trial phase, the energy might be free, but the goal is to evaluate potential monetization of curtailed energy.
+
+
+Question:Is the HSO trial only for residential devices, or will it also include industrial devices?
+Answer: The focus is residential, as Orkney isn’t heavily industrial.
+
+Question: Generation vs. Demand Management
+Answer: "In the turbine_telemetry dataset, I noticed that even when the turbine’s setpoint is at a maximum of 900, 
+the power generated (power_kw) isn’t necessarily higher than at times when the setpoint is below 900. Is there a reason for this?"
+
+To approach this question, it’s essential to consider both the demand and generation sides of the equation. From the generation perspective, the potential for power production is substantial, so this isn’t the issue. The primary challenge lies in demand management, as poor demand allocation results in a significant amount of wasted power. Therefore, the focus should be on creating a business case that minimises wasted energy and benefits all stakeholders. Additionally, when electricity is cheaper, people tend to consume more, which can inform your approach. This case study encourages ideas like reducing hydrocarbons to potentially attract government subsidies, making the scheme more appealing and feasible.
+
+
+Question: How would varying levels of DR penetration impact revenue, with varied % of households adopting DR?
+Answer: Different DR penetration levels directly influence the amount of curtailed energy that can be harnessed, affecting potential revenue through avoided curtailment and system balancing.
+
+
+Question: Are the technology hub and quantum heater costs classified as variable or fixed costs?
+Answer: Identifying whether these costs scale with the number of households can influence overall profit calculations and break-even analysis, especially as DR penetration levels increase. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
