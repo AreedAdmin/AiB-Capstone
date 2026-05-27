@@ -7811,7 +7811,7 @@ into a monetisation and break-even view for Kaluza's Heat Smart Orkney (HSO) pro
 How much Orkney wind curtailment can be mitigated through residential demand response, and what economic value does this unlock for households and the Heat Smart Orkney programme?
 <br/>
 <br/>
-<strong>Subsidary questions:</strong></p>
+<strong>Subsidiary questions:</strong></p>
 <ul>
 <li>(Q1) Annual curtailed energy across Orkney</li>
 <li>(Q2) Curtailment reduction potential as a function of DR penetration</li>
@@ -8033,9 +8033,8 @@ or a consultant judgement flagged as such). Post-2017 statistics are not used, c
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="1.-Methods-(self-contained-functions)">1. Methods (self-contained functions)<a class="anchor-link" href="#1.-Methods-(self-contained-functions)">¶</a></h2><p>All logic lives in this notebook so Kaluza's analytics team can replicate and extend the work
-without external modules. Below we define each step; later sections <strong>repeat the intuition in plain
-language</strong> before showing results.</p>
+<h2 id="1.-Methods">1. Methods<a class="anchor-link" href="#1.-Methods">¶</a></h2><p>All logic lives in a single notebook so Kaluza's analytics team can replicate and extend the work
+without external modules. Below we define each step:</p>
 <table>
 <thead>
 <tr>
@@ -8092,14 +8091,13 @@ or <code>Wind_ms</code>, and compute <code>dt_h</code> = hours to the next times
 inflate energy sums).</p>
 <p><strong>Regime flags</strong> (used in later steps):</p>
 <ul>
-<li><code>is_storm</code> — 10-minute mean wind &gt; 25 m/s or gust &gt; 30 m/s → turbine shut down (FAQ).</li>
-<li><code>is_downtime</code> — power ≤ 0 but wind above cut-in → maintenance / fault proxy.</li>
-<li><code>is_curtailed_regime</code> — <code>Setpoint_kw &lt; 0.99 × 900</code> → network cap active (curtailment <strong>signal</strong>).</li>
+<li><code>is_storm</code>: 10-minute mean wind &gt; 25 m/s or gust &gt; 30 m/s → turbine shut down (FAQ).</li>
+<li><code>is_downtime</code>: power ≤ 0 but wind above cut-in → maintenance / fault proxy.</li>
+<li><code>is_curtailed_regime</code>: <code>Setpoint_kw &lt; 0.99 × 900</code> → network cap active (curtailment <strong>signal</strong>).</li>
 <li>Overshoot rows (<code>Power_kw &gt; Setpoint_kw</code>) are flagged but kept.</li>
 </ul>
 <p><strong>Demand:</strong> <code>Demand_mean_kw</code> is <strong>per household in the metering sample</strong>; we scale to the island with
-<code>× N_HOUSEHOLDS_ORKNEY</code> (10,385). Sep–Oct 2017 is excluded from <strong>EDA charts</strong> only (sample-size spike);
-Q2 matching uses the <strong>full-year</strong> timeline.</p>
+<code>× N_HOUSEHOLDS_ORKNEY</code> (10,385).</p>
 </div>
 </div>
 </div>
@@ -8242,9 +8240,7 @@ Demand (full year): 17,568 half-hours | EDA subset (excl. Sep–Oct): 14,640
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Results">Results<a class="anchor-link" href="#Results">¶</a></h1><p>We inspect both datasets before modelling. Rich visual exploration is intentional: it documents
-data quirks (missing values, setpoint events, demand seasonality) and motivates our cleaning
-choices and DR dispatch strategy.</p>
+<h1 id="Results">Results<a class="anchor-link" href="#Results">¶</a></h1><p>We inspect both datasets before modelling (missing values, setpoint events, demand seasonality) in order to motivate our cleaning choices and DR dispatch strategy.</p>
 </div>
 </div>
 </div>
@@ -8254,17 +8250,14 @@ choices and DR dispatch strategy.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="1.-Exploratory-Data-Analysis">1. Exploratory Data Analysis<a class="anchor-link" href="#1.-Exploratory-Data-Analysis">¶</a></h2><p>We begin with a structured visual exploration of both datasets before any modelling. The narrative
-below moves from the <strong>supply side</strong> (wind and turbine behaviour, EDA 1–3) to the <strong>demand side</strong>
-(residential metering quality and load shapes, EDA 4–7). Each plot is designed to surface a
-specific feature of the data that informs a downstream modelling choice — coverage gaps, operating
-regimes, curtailment fingerprints, or load structure that ultimately determines flexibility potential.</p>
+<h2 id="1.-Exploratory-Data-Analysis">1. Exploratory Data Analysis<a class="anchor-link" href="#1.-Exploratory-Data-Analysis">¶</a></h2><p>We begin with a structured visual exploration of both datasets before any modelling. We first explore the <strong>supply side</strong> (wind and turbine behaviour, EDA 1–3) and then the <strong>demand side</strong>
+(residential metering quality and load shapes, EDA 4–7).</p>
 <h3 id="EDA%C2%A01-%E2%80%94-How-representative-is-the-2017-turbine-record?">EDA 1 — How representative is the 2017 turbine record?<a class="anchor-link" href="#EDA%C2%A01-%E2%80%94-How-representative-is-the-2017-turbine-record?">¶</a></h3><p>Before any curtailment analysis, we check that the 2017 telemetry actually covers the full year and
 exhibits the expected wind-resource signature. The left panel shows the <strong>monthly mean power</strong>, which
 should track Orkney's seasonal wind climate (windier winters, calmer summers). The right panel shows
 the <strong>wind-speed distribution</strong>, with the storm-mean threshold marked as a sanity check on the upper
 tail. Together they confirm that the dataset is annual in scope and physically plausible, and they
-already give us a first hint that curtailment days are common (reported under the figure).</p>
+already give us a first hint that curtailment days are common (154 days in 2017).</p>
 </div>
 </div>
 </div>
@@ -8292,13 +8285,7 @@ already give us a first hint that curtailment days are common (reported under th
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="EDA%C2%A02-%E2%80%94-Are-curtailment-regimes-visible-in-the-raw-wind%E2%86%92power-relationship?">EDA 2 — Are curtailment regimes visible in the raw wind→power relationship?<a class="anchor-link" href="#EDA%C2%A02-%E2%80%94-Are-curtailment-regimes-visible-in-the-raw-wind%E2%86%92power-relationship?">¶</a></h3><p>A healthy wind turbine should follow a deterministic curve in wind speed. Deviations from that curve
-— points lying <em>well below</em> the expected power for a given wind speed — are the visual signature of
-curtailment. Colouring each minute by whether the setpoint is below nameplate lets us see, at a glance,
-that curtailed points (red) systematically depress the upper envelope of the cloud, while normal points
-(blue) trace the canonical S-shaped power curve. This separation motivates fitting the <strong>counterfactual
-power curve on normal-regime data only</strong>, so that curtailed minutes can later be compared against what
-the turbine <em>would have</em> produced.</p>
+<h3 id="EDA%C2%A02-%E2%80%94-Are-curtailment-regimes-visible-in-the-raw-wind%E2%86%92power-relationship?">EDA 2 — Are curtailment regimes visible in the raw wind→power relationship?<a class="anchor-link" href="#EDA%C2%A02-%E2%80%94-Are-curtailment-regimes-visible-in-the-raw-wind%E2%86%92power-relationship?">¶</a></h3><p>A wind turbine's power output follows a deterministic curve relative to wind speed. Points lying well below the expected power for a given wind speed are the visual signature of curtailment. By coloring each minute based on whether the setpoint is below nameplate capacity, we can see at a glance that curtailed points (red) systematically depress the upper envelope of the data cloud. In contrast, normal points (blue) trace the canonical S-shaped power curve. This clear separation motivates fitting the counterfactual power curve using only normal-regime data, so that curtailed minutes can later be compared against what the turbine would have produced.</p>
 </div>
 </div>
 </div>
@@ -8321,7 +8308,7 @@ the turbine <em>would have</em> produced.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="EDA%C2%A03-%E2%80%94-When-and-how-aggressively-is-curtailment-applied?">EDA 3 — When and how aggressively is curtailment applied?<a class="anchor-link" href="#EDA%C2%A03-%E2%80%94-When-and-how-aggressively-is-curtailment-applied?">¶</a></h3><p>Having confirmed that curtailment exists, we now ask <em>how</em> the operator throttles the turbine. The
-left panel shows the <strong>distribution of setpoint values during curtailed minutes</strong> — a multi-modal
+left panel shows the <strong>distribution of setpoint values during curtailed minutes</strong>, a multi-modal
 histogram would suggest discrete throttling levels, while a smooth spread points to continuous control.
 The right panel shows <strong>curtailed minutes by month</strong>, revealing whether curtailment is uniformly
 distributed or concentrated in the windiest months. Both views shape our assumptions about the
@@ -8378,8 +8365,7 @@ supply series for downstream matching.</p>
 the average <strong>diurnal profile per household</strong> (morning and evening peaks typical of UK residential
 loads), the <strong>island-scale total demand</strong> (the same shape rescaled to all Orkney households), the
 <strong>monthly residential energy</strong> (winter heating dominance), and a comparison of <strong>winter vs summer day
-shapes</strong>. These curves determine <em>when</em> flexible load is available to absorb curtailed wind — a load
-that peaks at the wrong hours can never capture nighttime curtailment.</p>
+shapes</strong>. These curves determine <em>when</em> flexible load is available to absorb curtailed wind.</p>
 </div>
 </div>
 </div>
@@ -8402,7 +8388,7 @@ that peaks at the wrong hours can never capture nighttime curtailment.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="EDA%C2%A06-%E2%80%94-How-heterogeneous-is-demand-across-the-week?">EDA 6 — How heterogeneous is demand across the week?<a class="anchor-link" href="#EDA%C2%A06-%E2%80%94-How-heterogeneous-is-demand-across-the-week?">¶</a></h3><p>Beyond the average day, we need to understand the <strong>dispersion</strong> and the <strong>weekly structure</strong> of
-demand. The left histogram shows the distribution of 30-minute mean demands — most homes sit at a low
+demand. The left histogram shows the distribution of 30-minute mean demands. Most homes sit at a low
 base load with a fat tail of high-consumption intervals. The right heatmap (hour × day-of-week)
 exposes whether weekends shift the peak (later wake-up, earlier evening lull) and whether weekday
 patterns are stable. Both observations matter for sizing the <em>flexible</em> fraction of load that can be
@@ -8430,10 +8416,8 @@ shifted toward curtailment windows.</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="EDA%C2%A07-%E2%80%94-How-variable-is-per-household-demand-across-months?">EDA 7 — How variable is per-household demand across months?<a class="anchor-link" href="#EDA%C2%A07-%E2%80%94-How-variable-is-per-household-demand-across-months?">¶</a></h3><p>Finally, we look at month-on-month spread via boxplots. Strong seasonality in the <strong>median</strong> (winter
 higher than summer) combined with widening <strong>interquartile ranges</strong> in cold months tells us that
-flexibility potential is itself seasonal — more headroom exists precisely when curtailment is at its
-worst. This closes the EDA loop and sets up the modelling sections that follow: a counterfactual
-power curve (Section 2), an annual curtailment estimate (Section 3), a flexible-demand definition
-(Section 4), and the demand-response matching that ties them together (Section 5).</p>
+flexibility potential is itself seasonal. This confirms the business opportunity as more headroom exists precisely when curtailment is at its
+worst.</p>
 </div>
 </div>
 </div>
@@ -8455,23 +8439,20 @@ power curve (Section 2), an annual curtailment estimate (Section 3), a flexibl
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="2.-Power-Curve-Modelling-&amp;-Validation-(Hypothesis-P4)">2. Power Curve Modelling &amp; Validation (Hypothesis P4)<a class="anchor-link" href="#2.-Power-Curve-Modelling-&amp;-Validation-(Hypothesis-P4)">¶</a></h2><h3 id="What-model-do-we-use?">What model do we use?<a class="anchor-link" href="#What-model-do-we-use?">¶</a></h3><p>We do <strong>not</strong> fit a parametric logistic curve in this report. We use a <strong>non-parametric, monotone
-empirical power curve</strong>:</p>
+<h2 id="2.-Power-Curve-Modelling-&amp;-Validation-(Hypothesis-P4)">2. Power Curve Modelling &amp; Validation (Hypothesis P4)<a class="anchor-link" href="#2.-Power-Curve-Modelling-&amp;-Validation-(Hypothesis-P4)">¶</a></h2><p>Given the absence of prior assumptions regarding the curve's exact shape, we opted to fit a non-parametric, monotone empirical power curve rather than relying on a predefined parametric model. Our approach was executed as follows:</p>
 <ol>
-<li><strong>Training sample (critical):</strong> only <strong><code>normal</code> regime</strong> rows:<ul>
+<li><strong>Training sample:</strong> only <strong><code>normal</code> regime</strong> rows:<ul>
 <li>not storm, not downtime, <strong>not curtailed regime</strong> (<code>Setpoint_kw ≥ 891 kW</code>),</li>
 <li>i.e. minutes where the network is <strong>not</strong> capping output.</li>
 </ul>
 </li>
 <li>Split wind speed into ~35 bins; in each bin compute the <strong>mean observed power</strong>.</li>
-<li>Enforce a <strong>non-decreasing</strong> series (<code>maximum.accumulate</code>) — physical monotonicity.</li>
-<li>Interpolate with a <strong>PCHIP</strong> spline (<code>scipy.interpolate.PchipInterpolator</code>) and clip to <code>[0, 900]</code> kW.</li>
+<li>Enforce a <strong>non-decreasing</strong> series to align with physical monotonicity (more wind implies more power).</li>
+<li>Interpolate with a <strong>PCHIP</strong> spline and clip to <code>[0, 900]</code> kW.</li>
 </ol>
 <p>This is the curve $\hat{P}(v)$ used as <strong>potential power</strong> given wind speed $v$.</p>
-<h3 id="How-do-we-validate?">How do we validate?<a class="anchor-link" href="#How-do-we-validate?">¶</a></h3><p>Metrics (MAE, RMSE, R²) are computed on the <strong>same filtered population</strong> used to build the bins
-(<strong>in-sample</strong> on non-curtailed minutes). That answers: <em>“Does the curve describe normal operation?”</em>
-not <em>“Can it predict curtailed minutes?”</em> (those are out-of-domain by design).</p>
-<p>We also plot:</p>
+<p>We validated our approach using different metrics: MAE, RMSE, R², which we all computed on the <strong>same filtered population</strong> used to build the bins (<strong>in-sample</strong> on non-curtailed minutes).</p>
+<p>To assess how good is the fit, we also plot:</p>
 <ul>
 <li>residuals vs fitted power,</li>
 <li>residual histogram,</li>
@@ -8630,8 +8611,8 @@ Power curve validation (normal regime):
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="3.-Quantifying-Annual-Curtailment-(Q1)">3. Quantifying Annual Curtailment (Q1)<a class="anchor-link" href="#3.-Quantifying-Annual-Curtailment-(Q1)">¶</a></h2><h3 id="Counterfactual-potential">Counterfactual potential<a class="anchor-link" href="#Counterfactual-potential">¶</a></h3><p>For every minute: $\hat{P}_t = \hat{P}(\mathrm{wind}_t)$ from the power curve (Section 6).</p>
-<h3 id="Curtailed-power-formula-(what-the-code-implements)">Curtailed power formula (what the code implements)<a class="anchor-link" href="#Curtailed-power-formula-(what-the-code-implements)">¶</a></h3><p>Only when <strong><code>is_curtailed_regime</code></strong> and not storm/downtime:</p>
+<h2 id="3.-Quantifying-Annual-Curtailment-(Q1)">3. Quantifying Annual Curtailment (Q1)<a class="anchor-link" href="#3.-Quantifying-Annual-Curtailment-(Q1)">¶</a></h2><h3 id="Counterfactual-potential">Counterfactual potential<a class="anchor-link" href="#Counterfactual-potential">¶</a></h3><p>For every minute: $\hat{P}_t = \hat{P}(\mathrm{wind}_t)$ from the power curve.</p>
+<h3 id="Curtailed-power-formula">Curtailed power formula<a class="anchor-link" href="#Curtailed-power-formula">¶</a></h3><p>Only when <strong><code>is_curtailed_regime</code></strong> and not storm/downtime:</p>
 <p>$$
 \mathrm{curtailed\_kw}_t = \max\left(0,\; \hat{P}_t - P^{\mathrm{actual}}_t\right)
 $$</p>
@@ -8641,7 +8622,7 @@ $$</p>
 <p><strong>Why <code>max(0, potential − actual)</code> and not <code>min(potential, setpoint) − actual</code>?</strong></p>
 <p>When the setpoint binds, the turbine often tracks the cap closely, so <code>setpoint − actual ≈ 0</code> even
 though wind could support <strong>much more</strong> than actual output. The <strong>lost energy</strong> is the gap between
-<strong>what the wind resource could produce</strong> ($\hat{P}$) and <strong>what was delivered</strong> — not the spare
+<strong>what the wind resource could produce</strong> ($\hat{P}$) and <strong>what was delivered</strong>, not the spare
 headroom below the setpoint.</p>
 <table>
 <thead>
@@ -8770,17 +8751,8 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Interpreting-Q1">Interpreting Q1<a class="anchor-link" href="#Interpreting-Q1">¶</a></h3><p><strong>What works:</strong> The order of magnitude (~<strong>tens of GWh/year</strong> fleet-wide) is credible for a wind-heavy,
-export-constrained island and aligns with the case narrative. Curtailment is <strong>not</strong> a rounding error — it
-is a large stranded asset. The power-curve counterfactual is well supported (R² ≈ 0.98 on normal regimes),
-and the setpoint-regime flag aligns with known curtailment days in EDA.</p>
-<p><strong>Caveats (material):</strong></p>
-<ul>
-<li>We observe <strong>one</strong> turbine and multiply by <strong>500</strong> — real fleets differ in location, maintenance, and contract.</li>
-<li>Curtailment is inferred when <code>setpoint &lt; 891 kW</code>; grid-driven constraint without setpoint movement would be <strong>missed</strong>.</li>
-<li>Lost energy uses <code>potential − actual</code>, not demand/export balance — headline Q1 is a <strong>generation-side lower bound</strong>, not a full system dispatch model.</li>
-</ul>
-<p><strong>So what:</strong> Q1 establishes a strong <strong>problem size</strong> for Kaluza. It does <strong>not</strong> imply that DR can absorb most of this energy — that is tested in Q2.</p>
+<h3 id="Interpreting-Q1">Interpreting Q1<a class="anchor-link" href="#Interpreting-Q1">¶</a></h3><p>The analysis confirms that wind curtailment in Orkney represents a material, quantifiable loss of renewable generation. The estimated <strong>76.86 GWh/year</strong> at fleet scale is not a marginal figure — it constitutes a sizeable stranded asset under current network constraints. The power-curve counterfactual is well-supported by the validation results (R² ≈ 0.98 on normal-regime data), and the setpoint-regime flag is consistent with known curtailment events identified in the exploratory analysis.</p>
+<p>This result establishes the scale of the opportunity for Kaluza. It does not, however, imply that demand response can recover the majority of this energy; the extent to which residential flexibility can absorb curtailed generation is examined in Q2.</p>
 </div>
 </div>
 </div>
@@ -8868,7 +8840,7 @@ Gap between green and red lines = structural mismatch (timing + limited flex), n
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="5.-DR-Penetration-&amp;-Avoided-Curtailment-(Q2-&amp;-Q3)">5. DR Penetration &amp; Avoided Curtailment (Q2 &amp; Q3)<a class="anchor-link" href="#5.-DR-Penetration-&amp;-Avoided-Curtailment-(Q2-&amp;-Q3)">¶</a></h2><h3 id="DR-penetration-(definition)">DR penetration (definition)<a class="anchor-link" href="#DR-penetration-(definition)">¶</a></h3><p>$$
+<h2 id="5.-DR-Penetration-&amp;-Avoided-Curtailment-(Q2-&amp;-Q3)">5. DR Penetration &amp; Avoided Curtailment (Q2 &amp; Q3)<a class="anchor-link" href="#5.-DR-Penetration-&amp;-Avoided-Curtailment-(Q2-&amp;-Q3)">¶</a></h2><h3 id="DR-penetration">DR penetration<a class="anchor-link" href="#DR-penetration">¶</a></h3><p>$$
 \mathrm{penetration} = \frac{N_{\mathrm{enrolled}}}{N_{\mathrm{households, Orkney}}}
 \qquad \text{(e.g. } 2596 / 10385 \approx 25\% \text{)}
 $$</p>
@@ -8892,7 +8864,7 @@ $N_{\mathrm{enrolled}}$.</p>
 $$</p>
 <h3 id="Q3">Q3<a class="anchor-link" href="#Q3">¶</a></h3><ul>
 <li><strong>Penetration targets (10 / 25 / 50 %):</strong> read $N_{\mathrm{enrolled}}$ and avoided MWh from the curve.</li>
-<li><strong>MWh targets:</strong> invert the curve — find smallest $N$ such that avoided MWh $\geq$ target.</li>
+<li><strong>MWh targets:</strong> invert the curve, find smallest $N$ such that avoided MWh $\geq$ target.</li>
 </ul>
 </div>
 </div>
@@ -9155,20 +9127,9 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Interpreting-Q2-&amp;-Q3">Interpreting Q2 &amp; Q3<a class="anchor-link" href="#Interpreting-Q2-&amp;-Q3">¶</a></h3><p><strong>What works:</strong> The <strong>shape</strong> of the enrolment curve is right — avoided MWh rises roughly linearly at low
-penetration, then <strong>flattens</strong> (saturation). That tells Kaluza enrolment alone is not enough; <strong>flexible
-kW per home</strong> and <strong>coincidence</strong> with curtailment events matter more than marketing beyond the knee.</p>
-<p><strong>What is weak / honest negative:</strong></p>
-<ul>
-<li>At <strong>100% penetration</strong>, we recover only <strong>~0.3–0.5%</strong> of Q1 fleet curtailment. The DR lever is
-<strong>tiny relative to the problem</strong> under residential-heating-only assumptions.</li>
-<li>Matching is <strong>half-hourly</strong> and uses aggregate flex — we do not model thermal storage duration or industrial load.</li>
-<li>Recovering <strong>25% of fleet curtailment</strong> is <strong>not achievable</strong> in this model even with every household enrolled;
-Q3 targets framed as % of Q1 are <strong>aspirational</strong>, not forecast.</li>
-</ul>
-<p><strong>Q3 reading:</strong> Household counts for 10/25/50% <strong>penetration</strong> are linear (2,600 / 6,500 / 8,200 homes) but
-deliver only <strong>79 / 200 / 350 MWh/yr</strong> avoided — useful for <strong>operational planning</strong>, not for claiming
-grid-scale curtailment relief.</p>
+<h3 id="Interpreting-Q2-&amp;-Q3">Interpreting Q2 &amp; Q3<a class="anchor-link" href="#Interpreting-Q2-&amp;-Q3">¶</a></h3><p>The enrolment curve exhibits the expected saturation profile: avoided curtailment rises approximately linearly at low penetration levels before flattening as residential flexible capacity becomes the binding constraint rather than curtailed energy supply. This shape carries a practical implication for Kaluza: beyond the inflection point, expanding the number of enrolled households yields diminishing returns. The more consequential levers are the flexible capacity available per home and the temporal coincidence between curtailment events and dispatchable demand.</p>
+<p>At full enrolment, the model recovers approximately <strong>267 MWh/year</strong>, equivalent to <strong>0.35%</strong> of the Q1 fleet curtailment estimate. This result should be read as a consequence of the scope of the analysis (residential electric heating only) rather than as a ceiling on what demand response could achieve with a broader asset base.</p>
+<p>The Q3 figures provide a practical planning reference: achieving 10%, 25%, and 50% DR penetration requires approximately 1,039, 2,596, and 5,193 enrolled households respectively, delivering in the range of 79 to 350 MWh/year of avoided curtailment. These numbers are useful for sizing pilot programmes and operational targets, not for projecting grid-scale curtailment relief under the current residential-only model.</p>
 </div>
 </div>
 </div>
@@ -9661,8 +9622,16 @@ Actual central avoided @ full pen: 267 MWh/yr -&gt; Kaluza margin is small; grid
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Discussion">Discussion<a class="anchor-link" href="#Discussion">¶</a></h1><p>This analysis shows that wind curtailment in Orkney is both substantial and persistent under current network conditions. Estimated curtailed generation reaches approximately <strong>77 GWh per year</strong>, confirming that constrained renewable output represents a significant operational and economic issue for the local energy system.</p>
-<p>The results also show that curtailment is highly concentrated during periods of strong wind generation and low local demand, creating favourable conditions for flexible demand response. However, a clear scale mismatch emerges between available curtailed energy and the realistic flexibility provided by residential electric heating alone. Even under optimistic full-participation assumptions, the Heat Smart Orkney (HSO) model recovers only around <strong>267 MWh per year</strong>, representing less than <strong>1%</strong> of annual curtailment.</p>
+<h1 id="Discussion">Discussion<a class="anchor-link" href="#Discussion">¶</a></h1><p>This analysis shows that wind curtailment in Orkney is both substantial and persistent under
+current network conditions. Estimated curtailed generation reaches approximately <strong>77 GWh per
+year</strong>, confirming that constrained renewable output represents a significant operational and
+economic issue for the local energy system.</p>
+<p>The results also show that curtailment is highly concentrated during periods of strong wind
+generation and low local demand, creating favourable conditions for flexible demand response.
+However, a clear scale mismatch emerges between available curtailed energy and the realistic
+flexibility provided by residential electric heating alone. Even under optimistic
+full-participation assumptions, the Heat Smart Orkney (HSO) model recovers only around
+<strong>267 MWh per year</strong>, representing less than <strong>1%</strong> of annual curtailment we estimate at <strong>76.86 GWh</strong>.</p>
 <p>The four initial hypotheses are therefore broadly supported:</p>
 <table>
 <thead>
@@ -9690,9 +9659,26 @@ Actual central avoided @ full pen: 267 MWh/yr -&gt; Kaluza margin is small; grid
 </tr>
 </tbody>
 </table>
-<p>These findings suggest that residential demand response should not be viewed as a standalone curtailment-elimination solution. Its strategic value lies instead in demonstrating flexible demand orchestration and enabling future smart-grid services. Residential flexibility can contribute at the margin, but materially reducing curtailment would likely require additional flexible assets such as electric vehicles, batteries, industrial demand response, or network reinforcement.</p>
-<p>From a commercial perspective, the most credible approach is therefore a targeted pilot deployment. Focusing on highly flexible storage-heater households during winter curtailment periods would allow Kaluza to validate real-world customer responsiveness and operational flexibility. Partnerships with grid operators or renewable generators also appear essential, as the business case is unlikely to rely solely on residential participation economics.</p>
-<p>Overall, Orkney provides a valuable case study of both the opportunities and limitations of residential demand response in constrained renewable networks. While flexible demand can recover part of otherwise wasted renewable generation, the long-term value of HSO depends primarily on proving that distributed flexibility can be coordinated reliably and integrated into broader energy-system operations.</p>
+<p>These findings directly address the research question. Residential demand response through HSO
+can mitigate only a marginal share of Orkney curtailment: approximately <strong>0.35% of annual
+curtailed energy</strong> under central assumptions and full enrolment. The associated economic value
+unlocked at that scale is correspondingly modest: Kaluza's estimated revenue share reaches
+approximately <strong>£3,007 per year</strong> at full penetration under current wholesale price assumptions,
+a figure that falls well short of covering programme costs without subsidy or external funding.
+Household-level benefits remain similarly limited in absolute terms, though the per-MWh bill
+saving is meaningful for participating homes.</p>
+<p>Residential demand response should therefore not be positioned as a curtailment-elimination
+solution. Its strategic value lies in demonstrating flexible demand orchestration at scale and
+establishing the operational infrastructure for broader smart-grid services. Materially reducing
+system-wide curtailment would require additional flexible assets (electric vehicles, batteries,
+industrial demand response, or network reinforcement) beyond the residential heating scope of
+the current programme.</p>
+<p>From a commercial perspective, the most credible near-term path for Kaluza is a targeted pilot
+deployment focused on highly flexible storage-heater households during peak winter curtailment
+periods. This would allow validation of real-world customer responsiveness, dispatch reliability,
+and operational flexibility at manageable cost. Achieving programme viability at scale will
+additionally require partnerships with grid operators or renewable generators, as the business
+case cannot be sustained on residential participation economics alone.</p>
 </div>
 </div>
 </div>
@@ -9703,13 +9689,48 @@ Actual central avoided @ full pen: 267 MWh/yr -&gt; Kaluza margin is small; grid
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="Limitations-and-Future-Work">Limitations and Future Work<a class="anchor-link" href="#Limitations-and-Future-Work">¶</a></h1><p>Several limitations affect the precision and generalisability of this analysis.</p>
-<p>First, data quality issues were identified in parts of the dataset, particularly during September and October, where missing or inconsistent observations required cleaning and filtering. Curtailment estimates therefore remain sensitive to the reliability of the underlying measurements and to the limited historical period analysed.</p>
-<p>Second, the modelling framework relies on simplifying assumptions. Although the turbine power curve was empirically validated, actual turbine output may vary due to wake effects, maintenance, ageing, or environmental conditions. Similarly, the residential flexibility model assumes simplified household behaviour and fixed flexibility parameters, whereas real consumption patterns depend on occupancy, comfort preferences, weather sensitivity, and participation compliance.</p>
-<p>Third, the scope of flexibility considered is intentionally narrow. The analysis only models residential electric heating and excludes other potentially important flexible assets such as electric vehicles, batteries, commercial demand response, or utility-scale storage. The estimated recoverable energy should therefore be interpreted as the potential of the HSO residential framework rather than the total flexibility potential of the Orkney energy system.</p>
-<p>Finally, the economic assessment depends on uncertain assumptions regarding electricity prices, avoided-curtailment value, installation costs, and regulatory incentives. The commercial viability of demand response may therefore vary significantly under different market or policy conditions.</p>
-<p>Several directions for future work follow naturally from these limitations. Extending the framework to include additional flexibility assets would provide a more realistic system-level assessment of smart-grid potential. Future studies could also replace the rule-based matching approach with optimisation-based control methods capable of accounting for uncertainty in generation, demand, and pricing.</p>
-<p>Another important extension would be the inclusion of network-level constraints such as voltage limits, transformer loading, and feeder congestion. Coupling the demand-response model with power-system simulation tools would improve the engineering realism of the analysis.</p>
-<p>Finally, the highest-priority next step is the collection of real pilot data. Measuring actual household flexibility, customer engagement, rebound effects, and long-term behavioural response would significantly strengthen future operational and commercial assessments.</p>
+<p>First, data quality issues were identified in parts of the dataset, particularly during
+September and October, where missing or inconsistent observations required cleaning and
+filtering. Curtailment estimates therefore remain sensitive to the reliability of the
+underlying measurements and to the limited historical period analysed. The fleet-wide
+figure is additionally derived by scaling a single turbine by 500, which does not account
+for differences in turbine type, age, location, or maintenance status across the Orkney
+fleet. Curtailment is also identified solely through the setpoint signal (<code>setpoint &lt; 891 kW</code>);
+grid-driven output reductions occurring without a corresponding setpoint change would not
+be captured, meaning the Q1 estimate is likely a lower bound rather than a precise
+system-level accounting.</p>
+<p>Second, the modelling framework relies on simplifying assumptions. Although the turbine
+power curve was empirically validated, actual turbine output may vary due to wake effects,
+maintenance, ageing, or environmental conditions. The demand-response matching approach
+uses aggregate half-hourly flexibility profiles and does not model the thermal storage
+duration of individual heating systems, rebound effects following a dispatch event, or
+intra-hour timing mismatches that would occur in real-time operation. Similarly, the
+residential flexibility model assumes fixed flexibility parameters, whereas real consumption
+patterns depend on occupancy, comfort preferences, weather sensitivity, and participation
+compliance.</p>
+<p>Third, the scope of flexibility considered is intentionally narrow. The analysis models
+residential electric heating only and excludes other potentially important flexible assets
+such as electric vehicles, batteries, commercial demand response, or utility-scale storage.
+Avoided curtailment figures should therefore be interpreted as an upper bound on what a
+residential-only programme could deliver under idealised dispatch conditions, rather than
+as a reflection of the total flexibility potential of the Orkney energy system.</p>
+<p>Finally, the economic assessment depends on uncertain assumptions regarding electricity
+prices, avoided-curtailment value, installation costs, and regulatory incentives. The
+commercial viability of demand response may therefore vary significantly under different
+market or policy conditions.</p>
+<p>Several directions for future work follow naturally from these limitations. Extending the
+framework to include additional flexibility assets would provide a more realistic
+system-level assessment of smart-grid potential. Future studies could also replace the
+rule-based matching approach with optimisation-based control methods capable of accounting
+for uncertainty in generation, demand, and pricing.</p>
+<p>Another important extension would be the inclusion of network-level constraints such as
+voltage limits, transformer loading, and feeder congestion. Coupling the demand-response
+model with power-system simulation tools would improve the engineering realism of the
+analysis.</p>
+<p>Finally, the highest-priority next step is the collection of real pilot data. Measuring
+actual household flexibility, customer engagement, rebound effects, and long-term
+behavioural response would significantly strengthen future operational and commercial
+assessments.</p>
 </div>
 </div>
 </div>
