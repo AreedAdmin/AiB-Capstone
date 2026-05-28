@@ -1,0 +1,1287 @@
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+Anemocyte S.r.l
+Website
+https://anemocyte.com/
+Project description
+Healthcare;Innovation;Marketing;Strategy;
+Background to Company and Project
+Anemocyte is an Italian Biotech Manufacturing Organization with a strong focus on the
+research, development, manufacturing, and analytical services and products to address needs
+in the field of plasmid DNA and mRNA.
+This project focuses on AMCAP™, a proprietary and patent-pending enzymatic technology
+designed to transform mRNA "capping"—the most critical bottleneck in ensuring RNA stability
+and translational efficiency. While the biopharmaceutical industry is rapidly pivoting toward
+RNA-based vaccines and therapies, large-scale production remains hindered by traditional
+chemical capping methods that are costly, complex, and difficult to scale. AMCAP™ disrupts
+this landscape by providing a high-yield, enzymatic, and highly scalable synthetic solution,
+significantly lowering the technical and economic barriers to entry.
+The primary challenge lies in overcoming established competitive barriers and positioning
+AMCAP™ as the new global gold standard.
+This presents two major strategic opportunities:
+1. ROI Optimization: Identifying high-growth therapeutic segments where AMCAP™’s
+technical superiority translates into the highest financial return and operational savings.
+2. Strategic Partnership: Transitioning Anemocyte from a technology provider to the
+"partner of choice" for global biotechs requiring immediate, cost-effective scalability.
+The project aims to convert AMCAP™’s technical excellence into sustainable market
+dominance, validating the commercial fit and defining a roadmap for global market capture.
+Project Briefing
+Anemocyte srl is an Italian Biotech Manufacturing Organization (BMO) and a pioneer in the field
+of Advanced Therapy Medicinal Products (ATMPs). One of the most significant bottlenecks in
+mRNA production today is the "capping" process—a critical step for ensuring the stability and
+translational efficiency of the RNA molecule. Anemocyte’s proprietary AMCAP™ technology
+addresses this by providing an innovative, enzymatic, and highly scalable solution for synthetic
+mRNA production, significantly reducing costs and complexity compared to traditional
+chemical methods.
+Core Question for Students
+"How can Anemocyte strategically position the AMCAP™ technology to become the global
+partner of choice for biotech companies developing RNA-based vaccines and therapies,
+effectively overcoming the entry barriers set by established competitors?"
+Envisaged Business Outcomes
+We expect this project to contribute to the following strategic goals:
+Market-Fit Validation: Identifying specific therapeutic segments (e.g., immuno-oncology, rare
+diseases, or preventive vaccines) where the AMCAP™ technical advantages provide the highest
+ROI.
+Business Model Optimization: Evaluating whether a licensing-based model or a full CDMO
+(Contract Development and Manufacturing Organization) integration is more sustainable for
+long-term growth.
+International Brand Positioning: Crafting a value proposition that resonates with global
+decision-makers, specifically R&D Directors and Procurement heads in Big Pharma as well as
+setup o a globally network of products distributors
+Project Deliverables
+The student team is expected to provide a comprehensive presentation supported by detailed
+technical and financial appendices, including:
+Competitive Benchmarking: A side-by-side comparison of economics advantages of AMCAP™
+versus traditional capping methods (e.g., synthetic cap analogs vs. co-transcriptional
+enzymatic capping).
+Go-to-Market Strategy: A clear roadmap for expansion into key hubs (e.g North America and the
+EU), including a SWOT analysis of the current mRNA manufacturing landscape.
+Specific Analysis: A cost-benefit analysis (CBA) comparing the scalability of AMCAP™ against
+current industry standards.
+Special Requests & Field Research
+To add depth to the project, we encourage the students to engage in:
+Stakeholder Interviews: Conduct primary research with bioprocessing experts and heads of
+academic/industrial research labs to map current "pain points" in RNA manufacturing.
+Regulatory Trend Analysis: Investigate how the AMCAP™ technology aligns with evolving EMA
+and FDA quality and purity standards for synthetic RNA.
+Outline Collaboration Opportunities: Identify and evaluate potential pathways for strategic
+partnerships. Students should explore how the technology could be integrated into existing
+ecosystems for example through:
+• Co-development Agreements: Partnering with Innovators and Contract Development
+and Manufacturing Organizations (CDMOs) to pilot the technology.
+• Academic-Industrial Consortia: Leveraging public-private grants for pre-competitive
+research.
+• Licensing Models: Assessing which proprietary components of the workflow could be
+licensed to therapeutic developers to accelerate their internal pipelines.
+• Other Opportunities
+Skills needed for the Project
+Business Strategy & Market Intelligence Financial Modeling & Quantitative Analysis Creative
+Problem Solving & Systems Thinking Nice to have: Life Sciences & Regulatory Knowledge
+Communication & Field Research Innovation Management & Design Thinking
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+AstraZeneca
+Website
+https://www.astrazeneca.com/
+Project description
+Data Analysis;Economics;Finance;Healthcare;Strategy;
+Background to Company and Project
+AstraZeneca is a global, science-led biopharmaceutical company focused on the discovery,
+development, and commercialisation of innovative prescription medicines across oncology,
+rare diseases, and bio-pharmaceuticals. With a strong global presence and a rapidly expanding
+footprint in China, the company is investing significantly to enhance its R&D and manufacturing
+capabilities, particularly in advanced modalities such as cell therapy. China represents a
+strategic growth market, offering a combination of scientific innovation, manufacturing
+excellence, and a rapidly evolving healthcare ecosystem. As part of its long-term expansion,
+AstraZeneca is seeking to strengthen its local supplier base to support the development and
+delivery of next-generation therapies. This project will focus on supporting AstraZeneca’s
+procurement and supply chain strategy in China by identifying optimal approaches to supplier
+base establishment. The aim is to better understand the local market landscape, assess
+potential partners, and define a robust, scalable supplier strategy aligned with the company’s
+growth ambitions in the region.
+Project Briefing
+This project aims to address the following key question:
+How should AstraZeneca establish / optimise a high-quality, resilient, and scalable supplier
+base in China to support its expanding portfolio of cell therapy?
+As AstraZeneca continues to invest in China, the development of a strong local supplier
+ecosystem is critical to ensuring operational efficiency, regulatory compliance, and long-term
+sustainability. The student team will be expected to conduct a comprehensive market analysis
+of the Chinese supplier landscape, focusing on key categories relevant to advanced therapy
+manufacturing (e.g., raw materials, specialised equipment, logistics, and contract
+manufacturing). The project should evaluate potential suppliers based on criteria such as
+capability, quality standards, regulatory alignment, scalability, cost competitiveness, and
+strategic fit. In addition, students should assess the risks and challenges associated with
+supplier selection in China, including geopolitical considerations, supply chain resilience,
+intellectual property concerns, and regulatory complexity. The team is encouraged to
+benchmark best practices from both global pharmaceutical companies and leading local
+players operating in China. Insights into how competitors structure and manage their supplier
+networks will be valuable in informing recommendations. Expected outcomes of the project
+include clear, actionable guidance on how AstraZeneca can establish and develop its supplier
+base in China. This should include recommendations on supplier selection frameworks,
+partnership models (e.g., strategic partnerships vs transactional relationships), and potential
+approaches to supplier development and risk mitigation. The primary deliverable will be a final
+presentation summarising key findings, insights, and recommendations, supported by detailed
+analytical appendices. Additional useful outputs may include a supplier evaluation framework,
+a shortlist of potential suppliers or partner profiles, and a structured market map of the Chinese
+ecosystem. Where feasible, the project would benefit from primary research, including
+interviews with potential future customers, industry experts, or stakeholders within the Chinese
+healthcare and biotech ecosystem. These insights would help validate findings and strengthen
+the practical relevance of the recommendations. Overall, the project should provide
+AstraZeneca with a robust, data-driven foundation to inform its supplier strategy in China and
+support its long-term growth and innovation objectives in the region.
+Skills needed for the Project
+Analytical, Financial, Research, Computational. Objectives for the project; Goal 1: Complete a
+comprehensive market analysis identifying and categorizing at least 50 potential suppliers
+across 5 key categories (raw materials, specialized equipment, logistics, contract
+manufacturing, and ancillary services) relevant to advanced therapy manufacturing in China,
+with detailed profiles including capability assessments, certifications, and market positioning.
+Goal 2: Develop and validate a comprehensive supplier evaluation framework incorporating 6-8
+weighted criteria (capability, quality standards, regulatory alignment, scalability, cost
+competitiveness, strategic fit, IP protection, and supply chain resilience), test it against 10-15
+shortlisted suppliers, and refine based on stakeholder feedback from at least 3 internal
+AstraZeneca teams. Goal 3: Conduct and document at least 12-15 primary research interviews
+with key stakeholders including potential suppliers (5-6), industry experts (3-4), healthcare
+ecosystem participants (2-3), and AstraZeneca internal stakeholders (2-3) to validate findings,
+identify risks, and gather practical insights on supplier partnership models in China. Goal 4:
+Deliver a comprehensive final presentation and supporting documentation including: (1)
+actionable supplier selection strategy with 3-5 prioritized recommendations, (2) shortlist of 8-12
+qualified suppliers with partnership model recommendations, (3) risk mitigation framework
+addressing geopolitical, IP, and regulatory challenges, and (4) implementation roadmap with
+clear next steps for AstraZeneca's China supplier development program.
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+Celonis
+Website
+www.celonis.com
+Project description
+Data Analysis;
+Background to Company and Project
+Getting insights into an Order Management Process using Process Intelligence
+Demo data set - enabling students to learn to become consultant in the emerging Process
+Intelligence field
+Project Briefing
+Learn together with unicorn Celonis what the Management of tomorrow will look like in a world
+that is more digitized than ever. Celonis helps organizations track their internal processes based
+on digital footprints in IT systems. With this Celonis has turned into the market leader for
+Executive Management Technology with customers like Unilever, Coca Cola or BMW. Celonis
+uses Process Mining technology as well as different AI and ML capabilities to reveal insights into
+what is happening in an organization and to provide direct recommendations.
+The purpose of this project is to create a custom-made proof of value analyses for WoodCorp
+Inc, a fictional company producer of wooden pallets and boxes. Building on findings that we
+have about this company, we know that on-time delivery and keeping up with delivery promises
+is an issue for them.
+Based on these given process insights about WoodCorp’s business, your task is to use the
+Celonis Process Intelligence tool to help this customer address these problems. You will create
+process models, dashboards, and create suggestions based on insights from core Process
+Mining technology that automatically detects process bottlenecks and can set corresponding
+preventative measures. Your work will later be used as a teaching use case to teach process
+enhancement methods to students worldwide.
+The student will be required to undergo an initial software training with Celonis. After that the
+student will be asked to analyse the business case and build an analysis in the low-code
+Celonis studio environment.
+Skills needed for the Project
+Analytical interest and business understanding
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+CeramTec GmBH
+Website
+https://www.ceramtec-group.com/en/company/ceramtec-worldwide
+Project description
+Data Analysis;
+Background to Company and Project
+CeramTec is a global leader in advanced ceramics, serving high‑precision industrial and
+medical markets. In recent years, increasing market volatility, rising cost pressure and
+heterogeneous customer behavior have made static pricing models less effective. To prepare
+for a future Dynamic Pricing system, CeramTec aims to understand which pricing drivers can be
+reliably derived from existing data.
+The company currently holds extensive information across SAP (orders, production, cost data),
+Salesforce (quotes, wins/losses), production/SIOP (capacity and utilization), and external
+market indicators. However, data quality, historical completeness and structural consistency
+vary across systems. To avoid premature system implementation and focus on analytical
+maturity, CeramTec is initiating a 6‑week student project to evaluate feasibility based solely on
+static data extracts.
+The project represents an opportunity to explore (1) whether pricing‑relevant patterns can be
+extracted from historical data, (2) how strongly internal and external drivers influence margins,
+and (3) which data improvements are needed before deploying a full Dynamic Pricing solution.
+The outcome will directly inform CeramTec’s multi‑year pricing roadmap and ensure that future
+investments in automation and AI‑based pricing are grounded in evidence‑based insights.
+Project Briefing
+The project focuses on answering a central question: to what extent can meaningful
+pricing‑relevant drivers be extracted from CeramTec’s existing historical data, and what level of
+analytical maturity is necessary before the company can adopt a Dynamic Pricing system. The
+students will work exclusively with static data dumps and are expected to determine whether
+key drivers—such as Win Probability, Plant Utilization, customer and offer segmentation, or
+external market indicators—can be reliably computed, interpreted, and validated. The intention
+is not to develop production‑ready models, but to create a fact‑based feasibility assessment
+that clearly indicates which drivers are ready for future implementation, which would require
+further data investment, and which are currently not viable.
+The project is designed to generate three major outcomes for the business. First, it will create
+foundational clarity for the Dynamic Pricing roadmap by identifying which analytical elements
+can realistically be operationalised in the short to medium term. Second, it will increase
+transparency around data quality and structural limitations within the company’s Salesforce,
+SAP, production/SIOP, and external datasets, helping CeramTec understand the extent of its
+data gaps and inconsistencies. Third, the project will provide prototype insights—such as an
+initial Win Probability model, clustering-based segmentation results, and preliminary utilization
+KPIs—that can guide management in evaluating model design options, potential data pipelines,
+and future investments in automation or forecasting solutions.
+Students will deliver a final presentation supported by detailed analytical appendices and a
+concise management summary. Throughout the project, they will also produce several
+specialised outputs, including a data inventory and quality assessment covering history,
+structure, and completeness; a feature catalog documenting variables, transformations, and
+engineering logic; baseline and advanced Win Probability prototypes supported by performance
+metrics, lift charts, and calibration plots; interpretable clustering and segmentation results;
+derived Plant Utilization KPIs together with an analysis of their stability and pricing relevance;
+and a shortlist of external market indicators, such as foreign exchange trends or commodity
+indices, accompanied by evidence of their potential influence. All results will be consolidated
+into a comprehensive Dynamic Pricing Feasibility Report that summarises analytical findings,
+data risks, technical prerequisites, and recommended next steps.
+Skills needed for the Project
+The project team should have strong analytical skills and the ability to perform exploratory data
+analysis to identify patterns, data gaps, and quality issues. Team members should possess solid
+computational and machine‑learning capabilities, including experience with Python and
+libraries such as pandas, scikit‑learn, NumPy, and visualization tools. They should be
+comfortable building and validating classification models, handling class imbalance, and
+engineering meaningful features from heterogeneous datasets.
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+CeramTec GmBH
+Website
+https://www.ceramtec-group.com/en/
+Project description
+Data Analysis;
+Background to Company and Project
+Background to Your Company and Project
+Our company operates in a highly customer‑centric environment where strategic decisions,
+opportunity qualification, and forecasting accuracy strongly depend on the quality of
+information captured in Salesforce. While structured CRM fields provide a solid foundation for
+reporting, a significant share of customer knowledge resides in unstructured data such as
+meeting notes, emails, call summaries, and internal comments. These rich insights often
+remain underutilized because they are difficult to search, interpret, and aggregate at scale.
+The need for this project arises from two converging opportunities:
+(1) Unlocking hidden qualitative signals that can strengthen sales decision‑making, and
+(2) Leveraging recent advances in agentic AI and large language models to process unstructured
+data autonomously.
+The proposed student project explores how modern AI agents can extract meaningful customer
+signals—such as sentiment, intent, risks, objections, and buying readiness—and combine them
+with existing Salesforce opportunity data. This will enable a more holistic and data‑driven Win
+Probability estimation and deliver actionable Next Best Action recommendations for sales
+teams.
+Project Briefing
+Our business relies heavily on Salesforce as the central system of record for customer
+interactions, yet a significant portion of valuable information—emails, call summaries, internal
+comments, meeting notes, and activity logs—exists in unstructured form. Traditional analytics
+mainly leverage structured CRM fields, leaving qualitative signals such as sentiment, intent,
+objections, risks, or competitive mentions largely unused. This creates an opportunity to
+strengthen decision‑making, improve forecasting accuracy, and enable more consistent sales
+execution.
+The student project aims to explore how modern agentic AI can unlock these hidden insights.
+The core challenge is to design and prototype an autonomous multi‑step AI agent capable of
+ingesting unstructured Salesforce data, extracting meaningful customer signals, and
+synthesizing them into actionable outputs. This includes topic identification, sentiment and
+tone analysis, risk or blocker detection, customer intent recognition, and general insight mining.
+Each extracted signal should be accompanied by a confidence score to support transparency
+and user trust.
+To translate insights into business value, the project should merge these qualitative signals with
+structured opportunity attributes in Salesforce, enabling an enriched Win Probability model.
+This hybrid approach will help sales teams better assess pipeline health and identify high‑risk
+deals earlier. In addition, the AI system should generate automated Next Best Action
+recommendations informed by the detected patterns and confidence levels, helping sales reps
+respond faster and more consistently to customer needs.
+Expected Outcomes for the Business
+Improved opportunity forecasting by integrating qualitative factors alongside traditional
+structured data.
+Stronger sales execution with AI‑driven recommendations tailored to customer context.
+Enhanced decision‑support through automated surfacing of sentiment, risks, objections, or
+buying readiness signals.
+Foundational architecture for future agentic AI use cases in CRM and customer‑facing
+processes.
+Demonstration of feasibility for scalable, autonomous text‑based insight mining within
+enterprise systems.
+Most Useful Deliverables
+A presentation with detailed appendices outlining approach, findings, and implications.
+A working agentic AI prototype capable of end‑to‑end insight extraction from unstructured
+Salesforce records.
+A signal extraction taxonomy and classification framework (topics, sentiment, objections, risks,
+intent, etc.).
+A confidence scoring methodology with explanation of its logic and reliability limits.
+A Win Probability prototype model combining structured and unstructured data features.
+A Recommendation Engine for automated Next Best Actions.
+A Feasibility & Implementation Report covering data readiness, technical architecture, risks,
+scalability, and ROI potential.
+Skills needed for the Project
+The project team should have strong technical and analytical capabilities, particularly in Python
+programming and modern natural‑language‑processing methods. Students will need
+experience working with large language models, including prompting techniques and multi‑step
+agentic workflows, as well as a solid understanding of machine‑learning concepts such as text
+classification, embeddings, and feature engineering. They should be comfortable handling
+semi‑structured and unstructured data formats like Salesforce notes, emails, and activity logs.
+In addition, familiarity with CRM systems—ideally Salesforce—is beneficial, especially an
+understanding of opportunity stages, customer interactions, and typical sales processes. The
+ability to translate qualitative text signals into meaningful business insights will be essential for
+constructing an enriched Win Probability model. Strong analytical and problem‑solving skills
+are required to break down complex workflows, evaluate model outputs critically, and iterate
+toward improved solutions. Clear communication skills are also important, as students will
+need to document their methods, present their findings to non‑technical stakeholders, and
+conduct brief interviews with sales team members to validate insights. Finally, a creative
+mindset and willingness to experiment with new AI techniques will help the team design
+effective signal categories, agent tasks, and recommendation logic.
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+CRISIL Coalition Greenwich
+Website
+https://coalitiongreenwich.crisil.com/
+Project description
+Data Analysis;Finance;Economics;
+Background to Company and Project
+Coalition Greenwich is a leading global provider of strategic benchmarking, analytics and
+insights to the financial services industry. We specialize in providing unique, high-value and
+actionable information to help our clients improve their business performance.
+Our suite of analytics and insights encompass all key performance metrics and drivers: market
+share, revenue performance, client relationship share and quality, operational excellence,
+return on equity, brand perception, behavioral drivers, and industry evolution.
+Our clients include most of the leading investment banks, commercial banks and asset
+managers around the globe as well as a rapidly growing number of technology firms, securities
+exchanges, information companies, government entities, and other participants in the financial
+services ecosystem.
+Coalition Greenwich has 400+ employees across London, Paris, New York, Stamford, Mumbai,
+Singapore and Tokyo. We are a division of CRISIL, an S&P Global Company.
+Project Briefing
+Project overview:
+Our data, analytics and insights originate from three primary sources:
+• The influential buyers of financial services. These buy-side institutions include fund managers,
+hedge fund managers, pension funds, insurance companies, public sector entities, large
+corporations, and small and midsize businesses. The data collected includes market share,
+product usage, satisfaction across channels, and brand perception.
+• Banks, asset managers and third-party partners. The data includes financial and operational
+information relating to their revenue, pricing, client activities, costs, capital, and
+technology/digital transformation.
+• Our own unique research and analysis includes access to industry experts across the different
+product, financial and operational areas.
+We have gathered a deep and complex database over 20+ years of analysis for 70+ Corporate
+and Investment Banking clients across equities, fixed income, currency & commodities,
+investment banking, securities services, trade finance, cash management and lending. We have
+a long data lineage, across thousands of data points, that tracks banks’ actual performance
+against historic and actual macroeconomic factors and instruments.
+The consulting project will require students to harness new and emerging data science and
+business analytics technologies to analyse and interpret our existing internal data set in order to
+provide fresh statistical insights.
+Project brief:
+There are a number of areas we are looking to focus on:
+• Analysis of our deep data set across thousands of financial data points using both new data
+science methods and statistical techniques to explore different econometric models.
+• In particular, the identification of linkages and trends that can be applied to forecasting near-
+term scenarios.
+• Optimisation of our analytical techniques and financial models.
+The project brief is not intended to be prescriptive, we would rather the students had free rein to
+gain new insights from our existing data.
+Skills needed for the Project
+Data science technologies such as artificial intelligence and machine learning, business
+analytics, statistics and econometrics. Some knowledge of financial services will be helpful but
+we can provide SME advice to help guide students.
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+Cyber Square
+Website
+cybersquare.org
+Project description
+Data Analysis;
+Background to Company and Project
+Cyber Square is a global EdTech company focused on transforming students from users of
+technology into creators of technology. Operating across India, the Middle East, and other
+international markets, Cyber Square provides AI, coding, and digital skills education to over 450
+schools and hundreds of thousands of students through its cloud-based learning ecosystem.
+As part of our next phase of growth, Cyber Square is developing a new SaaS platform targeting
+schools, teachers, and institutions globally. While we have strong domain expertise and product
+capability, we currently lack a fully structured, data-driven digital analytics framework to
+optimise user acquisition, engagement, and conversion across the SaaS lifecycle.
+The key challenge is the absence of a clearly defined analytics funnel that connects marketing
+channels, user behaviour, onboarding, engagement, and revenue conversion into a measurable
+system. Establishing this funnel is critical to improving customer acquisition cost (CAC),
+conversion rates, and product-led growth.
+This project aims to design a comprehensive Google Analytics–driven funnel strategy that will
+enable Cyber Square to make data-backed decisions, improve growth efficiency, and scale
+globally.
+Project Briefing
+Core Question
+How can Cyber Square design and implement a comprehensive, data-driven Google Analytics
+funnel to optimise acquisition, activation, engagement, and conversion for its global SaaS
+platform?
+Project Context
+Cyber Square is launching a scalable SaaS platform serving schools, teachers, and institutions
+worldwide. To achieve sustainable global growth, we require a robust analytics architecture that
+measures user behaviour across the entire lifecycle — from first website visit to paid
+subscription and long-term retention.
+Currently, data exists in silos (website traffic, product usage, marketing campaigns, and
+conversions), limiting our ability to identify funnel leakage, optimise user journeys, and improve
+ROI across marketing and product initiatives.
+Key Objectives
+The project should:
+Design a complete SaaS funnel framework:
+Traffic → Lead → Signup → Activation → Engagement → Conversion → Retention → Expansion
+Define measurable KPIs for each stage (CAC, LTV, Activation Rate, Conversion Rate, Churn, etc.)
+Develop a Google Analytics (GA4) event and tracking architecture
+Identify funnel drop-offs and optimisation opportunities
+Recommend a scalable data dashboard and reporting structure
+Provide strategic recommendations to improve conversion and growth
+Expected Deliverables
+Funnel architecture for Cyber Square SaaS
+GA4 tracking and event measurement framework
+KPI and metrics definition for each funnel stage
+Customer journey mapping and drop-off analysis
+Dashboard structure (growth, marketing, product metrics)
+Data-driven growth strategy recommendations
+Final presentation with implementation roadmap
+Optional: wireframe for analytics dashboard or funnel visualisation
+Business Value
+This project will enable Cyber Square to:
+Improve marketing ROI and reduce CAC
+Increase conversion and activation rates
+Identify high-value customer segments
+Enable product-led growth
+Build a scalable, data-driven growth engine
+Support global SaaS expansion
+Special Requests
+We would value:
+Benchmarking against leading SaaS companies
+Best-practice analytics funnel design
+Strategic growth insights based on data
+Optional stakeholder interviews (marketing, product, leadership)
+Skills needed for the Project
+Data analytics and quantitative modelling, Google Analytics (GA4) / digital analytics
+architecture , SaaS metrics and growth funnel expertise , Business and growth strategy analysis,
+Customer journey and behavioural analytics , Dashboard design (Power BI / Looker / Tableau
+preferred) , Statistical and funnel conversion analysis, Digital marketing analytics
+understanding , Clear business communication and presentation skills
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+Ekimetrics
+Website
+Ekimetrics.com
+Project description
+Economics;Data Analysis;Marketing;Strategy;
+Background to Company and Project
+Ekimetrics is a pioneering leader in data science and AI-powered solutions for sustainable
+business performance. With over 16 years of experience, we help companies extract maximum
+value from their data and implement pre-packaged AI solutions, combining high impact with
+long-term business purpose. We operate on 4 pillars of expertise: Marketing Mix Modelling,
+Customer Centricity, building Data Science Transformation and Solutions, and AI for
+Sustainability. We are a global team of about 500 data experts and industry specialists
+collaborating on practical solutions, focusing on specific industry domains.
+Project Briefing
+As data science consultants, you will evaluate the factors driving bookings for an innovative Eki
+Retail Client.
+The team will do so by leveraging multiple layers of data, from internal factors (sales,
+promotions, marketing activity, etc.) to external (competition, Covid-19 pandemic, national
+holidays, etc.) in order to create several MMM models. You will explore key strategic insights
+such as which media channels can help maximize return on investment, what attracts new
+customers in particular, or how seasonality influences customer dynamics.
+With foundations in machine learning and econometrics, MMM is a form of regression analysis
+used to assess how marketing activity influences sales. Aside from media activity, MMM
+incorporates the effects of non-marketing factors (such as macro-economic trends) in order to
+provide a more holistic and accurate picture of the business.
+The team will be encouraged to explore innovative ways to decipher insights hidden in the data,
+primarily using MMM regression analysis, but any other relevant modelling methods are also
+welcome. The team is also expected to leverage the results to build a captivating story through
+creative visuals.
+The Eki team will consist of 2 Eki data scientists and consultants (Business Analytics alumni)
+who will hold regular catch-up calls to discuss progress, address questions, and provide
+guidance on next steps.
+Ultimately, this project will provide the team an opportunity to conduct an end-to-end data
+science consulting project, performing key steps such as: data pre-processing, feature
+engineering and modelling, and finally, extracting insights to inform strategic decisions.
+Skills needed for the Project
+Technical skills: Regresionn knowledge. Programming language (e.g., Python, R) for data
+processing, tools & libraries for statistical (multilinear regression) modelling, data analytics,
+data visualisation. Soft skills: project management, communication, presentation
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+Ekimetrics.com
+Website
+www.Ekimetrics.com
+Project description
+Data Analysis;Economics;Marketing;Strategy;
+Background to Company and Project
+Ekimetrics is a pioneering leader in data science and AI-powered solutions for sustainable
+business performance. With over 16 years of experience, we help companies extract maximum
+value from their data and implement pre-packaged AI solutions, combining high impact with
+long-term business purpose. We operate on 4 pillars of expertise: Marketing Mix Modelling,
+Customer Centricity, building Data Science Transformation and Solutions, and AI for
+Sustainability. We are a global team of about 500 data experts and industry specialists
+collaborating on practical solutions, focusing on specific industry domains.
+Project Briefing
+As data science consultants, you will evaluate the factors driving bookings for an innovative and
+eco-friendly train service.
+The team will do so by leveraging multiple layers of data, from internal factors (sales,
+promotions, marketing activity, etc.) to external (competition, Covid-19 pandemic, national
+holidays, etc.) in order to create several MMM models. You will explore key strategic insights
+such as which media channels can help maximize return on investment, what attracts new
+customers in particular, or how seasonality influences customer dynamics.
+With foundations in machine learning and econometrics, MMM is a form of regression analysis
+used to assess how marketing activity influences sales. Aside from media activity, MMM
+incorporates the effects of non-marketing factors (such as macro-economic trends) in order to
+provide a more holistic and accurate picture of the business.
+The team will be encouraged to explore innovative ways to decipher insights hidden in the data,
+primarily using MMM regression analysis, but any other relevant modelling methods are also
+welcome. The team is also expected to leverage the results to build a captivating story through
+creative visuals.
+The Eki team will consist of 2 Eki data scientists and consultants (Business Analytics alumni)
+who will hold regular catch-up calls to discuss progress, address questions, and provide
+guidance on next steps.
+Ultimately, this project will provide the team an opportunity to conduct an end-to-end data
+science consulting project, performing key steps such as: data pre-processing, feature
+engineering and modelling, and finally, extracting insights to inform strategic decisions.
+Skills needed for the Project
+Technical skills: LInear regression knowledge, Programming language (e.g., Python, R) for data
+processing, tools & libraries for statistical (multilinear regression) modelling, data analytics,
+data visualisation. Soft skills: project management, communication, presentation
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+Experian
+Website
+https://www.experian.co.uk/
+Project description
+Finance;Strategy;Other;Marketing;Data Analysis;
+Background to Company and Project
+Experian is a global data, analytics, and technology company helping individuals and
+businesses make smarter financial decisions. We improve credit access, prevent fraud, and
+support long‑term financial wellbeing, while giving organisations the data, analytics, and
+decisioning tools they need to better understand customers, reduce risk, and operate more
+effectively.
+As a leader in financial empowerment, we help millions understand their financial position,
+build their credit health, and access the products that matter. In the UK, we are working toward
+becoming the No.1 money app—supporting people to make confident, informed financial
+choices.
+One of the most important challenges we face today is how to better understand, engage, and
+support 18–24‑year‑olds at the very start of their financial journey.
+Young adults are navigating major life transitions—leaving education, entering work, managing
+money independently, and encountering credit products for the first time. Many feel uncertain
+or overwhelmed by traditional financial brands. Simultaneously, this group represents a
+strategically critical audience for Experian, with the potential to become long‑term customers if
+we can offer the right support from the beginning.
+This creates a clear opportunity to better understand their needs, build trust early, and design
+experiences that genuinely help them feel confident in managing their financial lives.
+Project Briefing
+This project will generate insight into the real needs, motivations, and barriers faced by 18–
+24‑year‑olds as they begin managing their financial lives. These insights will help Experian
+design a value proposition that genuinely resonates with this audience and supports them
+through key moments of their financial journey.
+The outcomes will support improvements across the customer journey and inform how we
+show up for young adults—from the first moment they encounter our brand to the habits they
+build over time. Ultimately, the project will strengthen trust, increase app usage, and shape
+Experian’s long‑term strategy for younger consumers.
+A core outcome will be a clearer picture of how young adults discover financial tools, make
+decisions about money and credit, and evaluate which brands they trust. Understanding where
+confusion, hesitation, or intimidation occurs will allow us to design interventions that reduce
+friction and build confidence. The project will also help identify the moments that matter most
+in the journey from awareness → trust → onboarding → first interactions → long‑term engagement.
+These insights will shape how Experian becomes a trusted, go‑to resource that young adults
+return to regularly as they build financial confidence and habits.
+We’re particularly looking for the following deliverables:
+- A redesigned end‑to‑end customer journey for 18–24‑year‑olds, highlighting pain points,
+opportunities, and moments where Experian can add meaningful value.
+- An insight‑driven value proposition tailored to this audience, including emotional and
+functional benefits that clearly articulate why Experian matters to them.
+- Strategic recommendations covering tone of voice, education and guidance opportunities,
+onboarding improvements, and engagement strategies that encourage regular app use.
+- Benchmarking analysis of fintech brands and financial products that resonate strongly with
+younger audiences, identifying what they do well and where Experian can differentiate.
+- A consultant‑style presentation summarising research findings, behavioural insights, journey
+mapping, and strategic recommendations.
+These outputs should be practical, evidence‑based, and capable of influencing Experian’s
+long‑term approach to supporting young adults. They will help us refine our communication
+style, improve early‑stage experiences, and identify the triggers that build lasting financial
+habits.
+To ensure the recommendations are grounded in real behaviour, we encourage students to
+conduct both primary and secondary research into financial attitudes and decision‑making
+within the 18–24 segment. This may include surveys, interviews, social listening, or digital
+ethnography. Authentic insight into how young adults think, feel, and behave will be essential in
+shaping a value proposition and customer journey that feel genuinely relevant and useful.
+This project is a standout opportunity for students interested in consulting, strategy, consumer
+insight, digital behaviour, or financial services. It offers the chance to tackle a real business
+challenge, produce professional‑level recommendations, and play a meaningful role in shaping
+how a leading global brand supports young adults at pivotal moments in their financial lives.
+Skills needed for the Project
+creative, research skills, strategy and problem solving, technical, communciation
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+Halo
+Website
+www.linkedin.com/company/joinhalo
+Project description
+Strategy;Healthcare;Finance;
+Background to Company and Project
+Halo is reinventing the way people live with diabetes and stay healthy, powered by human
+design and AI. 589 million people have diabetes, making it the fastest growing disease globally.
+Imagine if we could prevent diabetes before it develops. For those already with diabetes,
+imagine if we could dramatically improve quality of life and health outcomes. Halo is building a
+groundbreaking digital ecosystem that supports the entire journey of the condition.
+Diabetes is a difficult condition to manage with serious impact to health and quality of life.
+Individuals make 180 extra health-related decisions a day compared to someone without
+diabetes. These decisions involve 24/7 monitoring of blood sugar, medication dosing, food
+intake, activity, and other factors, leading to mental fatigue and poor treatment decisions.
+Halo transforms complex health data into simple personalised guidance using cutting edge
+data science, behavioural awareness, and intuitive design. Halo is funded by Innovate UK and
+incubated at InnovationRCA. We’re supported by the Helen Hamlyn Centre for Design, Pioneer,
+and Imperial College London Faculty of Medicine.
+For this project, we seek to develop Halo's business model and go-to-market strategy. This will
+include exploring B2B and D2C markets, including private health insurance delivered through
+enterprises and private healthcare clinics, as well as individual users with prediabetes and
+diabetes, identifying key value adds and conversion points that could create customers and
+future revenue.
+Project Briefing
+The Question
+How should Halo structure its go-to-market strategy across B2B and D2C channels to maximise
+near-term commercial traction, and what is the most viable path to first revenue?
+Outcomes
+Halo has already developed value propositions for its key customer segments. The goal of this
+project is not to recreate these, but to rigorously stress-test them. We want students to quantify
+and qualify the pains experienced by each customer type — private health insurers, employer
+benefits teams, private healthcare clinics, and individual users with prediabetes or diabetes —
+and map these directly onto Halo's product, making the causal chain between problem and
+solution explicit and commercially credible.
+Students should critically evaluate which segments represent the most viable near-term
+revenue opportunities, what the key conversion drivers and barriers are, and how pricing,
+positioning, and distribution should differ across channels. Critically, we also want to
+understand the practical realities of B2B sales: who the real decision-makers and gatekeepers
+are, what procurement and pilot approval processes look like, what due diligence requirements
+Halo must satisfy, and whether intermediaries such as brokers or employee benefits
+consultants control access and need to be engaged first.
+Deliverables
+The primary output should be a presentation with detailed supporting appendices, covering:
+-A segmentation and prioritisation framework across B2B and D2C markets, with a
+recommended sequencing strategy and clear rationale for which segment to pursue first
+-A pain quantification and qualification analysis for each customer type, mapped to Halo's
+specific product features and outcomes
+-A go-to-market roadmap covering proposed channels, partnerships, and key milestones for the
+first 12–18 months
+-A preliminary revenue model with assumptions modelled across at least two
+commercialisation scenarios (e.g., B2B-first vs. D2C-first)
+-Identification of the two or three critical risks or unknowns most likely to affect commercial
+viability
+Research Proficiency
+Primary research is a core expectation of this project. We want students to engage directly with
+prospective B2B customers — HR directors, employee benefits managers, health insurer
+partnerships teams, occupational health leads, and private clinic managers — to gather real
+intelligence on how Halo would actually gain access, build credibility, and progress through a
+sales or pilot process. Key questions include: what does procurement look like and how long
+does it take, what budget lines does this sit under, and what would a pilot proposal need to
+include to get approval? Warm introductions through the Imperial network are strongly
+encouraged.
+Skills needed for the Project
+Analytical, strategic, communication, creative thinking, critical, self-starter, financial
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+Heal Earth
+Website
+www.healearth.co
+Project description
+Marketing;Strategy;Sustainability;Entrepreneurship;
+Background to Company and Project
+Heal Earth is the world's first neuro-inclusive, AI-powered ecosystem for climate education.
+Founded by an autistic Imperial College alumna , our platform empowers the 60% of teachers
+who feel unprepared to deliver the UK’s statutory 2025 Green Mandate , while ensuring the 15-
+20% of neurodivergent students are not excluded from sustainability learning.
+Despite backing from a UN Incubator and a pipeline of 500+ schools , we face a critical scaling
+challenge: public school budgets are constrained, yet corporations have significant capital for
+ESG-driven initiatives.
+This project explores a dual-market opportunity to bridge this gap. We aim to validate a
+'Sponsor-to-School' model where corporate ESG funds subsidize school adoption. We need a
+consulting team to quantify the carbon reduction potential for corporate sponsors and develop
+a market penetration strategy that overcomes procurement barriers in the education sector,
+allowing us to minimize customer acquisition costs and scale to 3,000 schools by Year 3.
+Project Briefing
+Core Challenge: How can Heal Earth secure its first 3,000 Early Adopter schools by 2028
+through a financially sustainable 'Sponsor-to-School' model?
+The Brief: We are moving from a successful pilot phase (UN CTCN Incubation/ STEMPOINT UK)
+to full commercial rollout. We need a consulting team to actively validate our Go-to-Market
+Strategy by engaging directly with our two core customer segments: Schools (Users) and
+Corporations (Payers).
+We challenge the team to treat this project as a 'Living Lab' market entry study. The goal is not
+just to theorize about the market, but to interact with it. We need to test the elasticity of our
+pricing and the appeal of our 'Neuro-inclusive Climate Ecosystem' against the reality of UK
+school procurement and corporate ESG budgets.
+What outcomes do you envisage this project could contribute to your business?
+Pipeline Generation (Traction): By interviewing Headteachers and Sustainability Leads as part of
+their research, the students will effectively warm up our sales pipeline. We envisage the
+"research participants" becoming our first cohort of sales leads for the September academic
+term.
+Commercial Validation: Confirmation of the exact price point (£6,700 ARPS vs. subsidized
+models) that triggers rapid adoption in Multi-Academy Trusts (MATs).
+What deliverables would be most useful?
+The 'Early Adopter' Campaign Plan: A tactical roadmap for acquiring the target 3,000 schools.
+This should include a database of "warm" contacts generated during the research phase.
+The Corporate ESG Pitch Deck: A data-driven presentation validated by student research,
+quantifying exactly how a corporate sponsor can claim 'Scope 3 Carbon Reductions' by funding
+Heal Earth licenses for schools.
+Barrier-to-Entry Analysis: A report detailed why schools say "no" (e.g., budget cycles, lack of
+teacher time) and a strategy to overcome these specific objections.
+Are there any special requests relating to this project?
+Yes – Active Stakeholder Engagement. To derive real value, we request the students conduct
+primary field research (interviews or focus groups) with at least 20-30 decision-makers across
+two groups:
+Education Buyers: Headteachers or MAT CEOs, to validate the 'pain point' of the 2025 Green
+Mandate and their willingness to pay for a neuro-inclusive solution.
+Corporate ESG Directors: To validate the 'Sponsor-to-School' financing model.
+As an Imperial alumna-led company, we will provide the team with access to our existing
+network, our advisory board of experts, and our initial list of 500+ interested schools to
+accelerate this outreach.
+Skills needed for the Project
+Gemini said We require a multidisciplinary team combining advanced financial modeling and
+analytical skills to quantify ESG impact , alongside strategic communication and market
+research capabilities to engage educational and corporate stakeholders effectively.
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+illumi One Pte Ltd
+Website
+https://illumi.one
+Project description
+Entrepreneurship;Marketing;
+Background to Company and Project
+illumi is a visual AI context workspace that helps cross-functional teams build, maintain, and
+distribute the shared rules, standards, and domain knowledge needed to run team AI agents
+safely. We started illumi after seeing “context rot”: business logic and coding/brand standards
+change frequently, but agent instructions live in hidden developer tools, so non-technical
+experts (PMs, marketers, designers) can’t keep them current. This leads to misaligned outputs
+(“AI slop”), rework, and risk. This project is an opportunity to test how student teams
+collaborate with AI using shared, governable context—and to learn what drives real adoption in
+team settings.
+Project Briefing
+Core question for students to answer
+How should illumi win and scale in mid-to-large enterprises where deploying team AI agents
+requires substantial change management, cross-functional alignment, and governance—not
+just tooling?
+Context
+illumi is a visual workspace where cross-functional teams co-design, maintain, and distribute
+“executable context” (rules, standards, brand voice, engineering conventions) to keep shared AI
+agents compliant as organizational knowledge changes. Our wedge is solving “context rot” and
+making agent logic maintainable by non-technical domain experts, not just developers.
+Outcomes we want this project to contribute
+A pragmatic GTM plan that acknowledges AI adoption is an organizational transformation
+(process, incentives, governance), not a feature sale.
+Clear ICP + use-case prioritization where change-management friction is high but ROI is
+undeniable.
+A repeatable land-and-expand motion with measurable value in the first 30–60 days.
+Messaging that resonates with both economic buyers (risk, compliance, efficiency) and
+champions (PM/Eng/RevOps).
+Most useful deliverables (presentation + appendices)
+ICP & segmentation: 2–3 priority segments with trigger events (e.g., AI agent rollout, quality
+incidents, compliance pressure).
+Positioning & narrative: “why now,” competitive differentiation, and top objections with
+rebuttals.
+Adoption & change-management playbook: pilot structure, stakeholder map, governance
+model, training/onboarding approach, internal comms kit.
+Packaging & pricing hypothesis aligned to seats + agent query volume; recommended buyer +
+procurement path.
+GTM operating plan: channels, sales motion, success metrics, and a 6–12 month rollout
+roadmap.
+Special requests (research)
+8–12 interviews with target stakeholders: Engineering Managers, PM leaders, AI/Automation
+leads, Security/Compliance, RevOps/Marketing Ops.
+Synthesize patterns on blockers to shared agent adoption, governance requirements, and what
+would make a pilot “safe to approve.”
+Skills needed for the Project
+analytical, creative
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+In Digital Marketing
+Website
+https://indigital.marketing/
+Project description
+Marketing;Innovation;
+Background to Company and Project
+In Digital is a growth-focused digital marketing agency operating at the intersection of
+performance marketing, creative strategy, and data analytics. We work with ambitious brands to
+drive measurable commercial outcomes across digital channels, with deep expertise spanning
+paid media, growth, content and analytics.
+As the digital marketing landscape undergoes rapid transformation driven by artificial
+intelligence, In Digital is making AI agent development a core strategic priority for 2026. We are
+actively building and deploying AI agents designed to augment the performance of our growth,
+creative, and data departments, enabling faster execution, smarter decision-making, and
+stronger client results.
+This shift is not merely a technology upgrade; it represents a fundamental evolution in how a
+modern agency operates. Remaining competitive requires us to move quickly, embed AI
+capabilities across the business intelligently, and ensure our people and processes evolve
+alongside the technology. We are seeking ambitious, analytically rigorous students to help us
+think critically about how we scale these agentic capabilities strategically, ethically, and
+commercially, contributing directly to decisions that will shape the future of the agency.
+Project Briefing
+Central Research Question: How should In Digital design and prioritise its AI agent strategy to
+maximise competitive advantage, operational efficiency, and client value and where does
+improvement need to happen to deliver impact to our clients?
+Context:
+By the time students engage with this project (July 2026), In Digital will have a working
+foundation of AI agents operating across departments. The challenge is no longer whether to
+adopt AI; it is how to scale adoption intelligently, measure its impact rigorously, and ensure it
+translates into tangible growth for both the agency and its clients. Students are encouraged to
+give a view on areas of improvement, which will require a strong set of technical skills as well as
+a business and marketing mindset.
+Students will be asked to explore some or all of the following:
+- Strategic prioritisation: Across marketing, e-commerce, growth, creative and data functions,
+where do AI agents create the highest leverage? How should In Digital sequence further
+investment and development?
+- Competitive benchmarking: How are leading digital agencies and adjacent technology
+companies deploying agentic AI? Where does In Digital have an opportunity to differentiate?
+- Measurement & ROI: What frameworks and KPIs should be used to evaluate the business
+impact of AI agents both internally (efficiency, output quality) and externally (client outcomes)?
+- Change management & adoption: What organisational, cultural, or structural enablers are
+needed to ensure AI tools are effectively adopted across teams?
+- Client proposition: How can In Digital's agentic capabilities be used to push client growth and
+exceed performance targets? How do you see us working as a consultancy AI marketing agency
+in the future?
+Expected deliverables:
+- Final presentation delivered to In Digital's leadership team, including the CEOs and Head of
+Innovation, presenting findings, strategic recommendations, and a prioritised implementation
+roadmap. Success will be measured against internal KPIs; broadly speaking, this will focus on
+time saved by teams and agency work quality. From an external perspective, it will be assessed
+through improvement on client KPIs, primarily focusing on performance marketing.
+- Competitive landscape analysis benchmarking AI agent adoption across the digital marketing
+and broader agency sector.
+- Strategic framework or decision tool to help In Digital evaluate and prioritise future AI agent
+development.
+- Client value proposition draft: an outline of how AI capabilities could be positioned externally.
+Research & access: Students will have direct access to In Digital's Head of Innovation and will
+be embedded closely with the growth, creative, and data departments. Face-to-face time with
+the CEOs will be available at key project milestones. Students are encouraged to conduct
+primary research including stakeholder interviews within the business, as well as outreach to
+clients (where appropriate and agreed) to understand appetite and perceived value of AI-
+augmented services. External expert interviews and analysis of industry reports are also
+encouraged.
+Why this project matters? This is a rare opportunity to work on a live, high-stakes strategic
+challenge at the frontier of AI and marketing. Student recommendations will not sit on a shelf;
+they will directly inform decisions made by In Digital's leadership in 2026 and beyond. Students
+with an interest in AI strategy, digital marketing, organisational transformation, or technology
+commercialisation will find this project a rich and genuinely impactful experience.
+Skills needed for the Project
+Analytical, strategic, technical, problem-solving, communication, research, commercial, digital
+marketing, creative, project management
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+MAIA Labs
+Website
+https://maia-labs.com/
+Project description
+Innovation;Healthcare;Entrepreneurship;Economics;Strategy;
+Background to Company and Project
+We are MAIA Labs, a deep tech startup on a mission to eliminate colorectal cancer, the second
+deadliest cancer in Europe. Our first-in-the-world AI co-pilot, ColoMAIA, boosts cancer
+detection and shortens procedure times for gastroenterologists. Our unique technology is
+already gaining recognition—we have won the European MedTech Startup of the Year award.
+After years of intense R&D, we are about to finish the EU Medical Device certification process
+and are ready for commercial launch.
+But now comes the hard part: where do we go first?
+As we expand from the Czech Republic into the UK, Germany, France, and Italy, we need to
+move fast and smart. Markets differ wildly—reimbursement rules, hospital adoption rates,
+regulations, and sales channel preferences all shape where we can win quickest.
+Project Briefing
+For our AI endoscopy assistant, ColoMAIA, which initial market among the UK, Germany,
+France, and Italy offers the easiest entry and fastest value capture as we launch commercial
+sales post-EU MDR certification? Develop a prioritized go-to-market strategy, including optimal
+sales and business models.
+Students will conduct comparative market analysis across these four markets, evaluating key
+factors: regulatory hurdles, reimbursement frameworks, hospital adoption dynamics (public vs.
+private, endoscopy volumes), competitive landscape, market size (colorectal screening
+programs), and channel viability (direct hospital sales vs. indirect via distributors/partners).
+Use desk research, public datasets (e.g., Eurostat health stats, national endoscopy registries),
+and our provided internals (product specs, early sales data) to score markets on ease of entry,
+time-to-revenue, and scalability.
+Envisaged Outcomes: A data-driven market prioritization to guide our European expansion,
+minimizing risk while maximizing traction in high-potential GI centers. This will inform resource
+allocation, partnerships, and sales ramp-up for 2026-27 growth and can have a significant
+influence on the future growth of our company.
+Key Deliverables:
+• Final presentation (standard format) with executive summary, market comparison
+dashboard, #1 market deep-dive, and GTM roadmap.
+• Optional: Quantitative scoring model (e.g., weighted matrix on entry barriers/ROI), sales
+model pros/cons (direct vs. indirect, hybrid), revenue forecasts (3-year), competitor
+benchmarks, regulatory timelines.
+• Bonus: Excel-based market assessment tool and stakeholder interview synthesis (if
+feasible).
+Special Requests/Offer: We can facilitate outreach to gastroenterologists/hospital buyers for
+brief calls to validate assumptions on adoption drivers. Potentially, we could organize a field-trip
+visit to demonstrate the device in the real world.
+Skills needed for the Project
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+RBC
+Website
+https://www.rbcbluebay.com/en-gb/institutional/
+Project description
+Data Analysis;Finance;Innovation;Sustainability;
+Background to Company and Project
+RBC Global Asset Management (GAM) is a leading global investment manager, providing a
+comprehensive range of solutions to institutional, fiduciary, and individual investors. The Global
+Equities team focuses on active management, utilising fundamental research to identify high-
+quality, long-term growth opportunities across international markets.
+The investment landscape is currently undergoing a significant shift driven by the rapid
+evolution of Artificial Intelligence (AI) and Large Language Models (LLMs). To maintain a
+competitive edge and ensure the highest level of service for clients, it is essential to evaluate
+how these technologies can be integrated into a fundamental research framework. This project
+aims to explore how AI can augment human expertise, streamline data-heavy processes, and
+uncover deeper insights that traditional methods might overlook. The objective is to move
+beyond experimentation and identify actionable, scalable ways to embed AI into the core of the
+global equity investment process.
+Project Briefing
+Project Question: How can AI and LLMs be strategically integrated into an active global equity
+investment process to optimise decision-making, enhance research efficiency, and improve
+sustainability integration?
+Key Objectives and Workstreams:
+The student team will be expected to focus on the following four pillars:
+1. Process Optimisation: Identify specific touchpoints within the active investment
+lifecycle where AI and LLMs can improve efficiency. This includes automating the synthesis of
+earnings call transcripts, broker reports, and financial filings to highlight key themes and
+anomalies for portfolio managers.
+2. Competitor Landscape: Conduct a comprehensive analysis of the current state of AI
+adoption within the asset management industry. This should involve benchmarking the
+strategies of other leading global asset managers to identify best practices and emerging trends
+in AI-driven equity research.
+3. ESG and Sustainability Integration: Investigate how AI can enhance the integration of
+Environmental, Social, and Governance (ESG) factors. Specifically, the project should look at
+how LLMs can process unstructured data (such as sustainability reports and news sentiment)
+to provide more real-time and nuanced ESG risk assessments.
+4. Healthcare Sector Deep-Dive: Develop a sector-specific framework for the healthcare
+industry. This involves exploring how AI can be used to track clinical trial progress, regulatory
+changes, and patent filings more effectively to improve investment outcomes in this complex
+and data-rich sector.
+Expected Deliverables:
+• A comprehensive report detailing the competitor landscape and a prioritised roadmap
+for AI integration.
+• A strategic presentation for senior stakeholders outlining specific use cases and
+implementation frameworks.
+• Data-backed recommendations for improving ESG and healthcare-specific research
+through automated tools.
+Special Requests:
+The project may involve interviewing internal investment professionals to understand current
+pain points and potentially engaging with external technology providers or industry experts to
+validate the feasibility of proposed AI solutions.
+Skills needed for the Project
+• Analytical & Financial: Strong understanding of equity research, financial statements,
+and investment management principles. • Technological: Knowledge of AI/LLM capabilities,
+prompt engineering, and data science applications in finance. • Strategic Thinking: Ability
+to map technological solutions to business challenges and conduct competitor benchmarking.
+• Communication: Proficiency in translating complex technical concepts into strategic
+insights for investment professionals.
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+Royal Avebe
+Website
+www.avebe.com
+Project description
+Data Analysis;Economics;Entrepreneurship;Organisational Behaviour;
+Background to Company and Project
+Royal Avebe is an international farmer-owned cooperative specialising in potato-based
+ingredients for food, feed, and industrial applications. KPW GmbH, a wholly owned subsidiary
+based in Germany, operates a production facility in Lüchow and plays a key role in processing
+raw materials supplied by our farmer members.
+Our intake delivery system is inherently complex, comprising both direct deliveries from our
+farmer-owners and shipments managed by third-party logistics providers. During peak periods,
+this complexity contributes to congestion in the goods-in area, resulting in occasional traffic
+jams at the factory intake point. These bottlenecks reduce operational efficiency, increase
+waiting times, and can create frustration and distress among our farmers—who are not only
+suppliers but also the owners of the cooperative.
+Addressing these challenges is a clear strategic priority for the board. The objective of this
+project is to analyse the current goods-in processes, identify root causes of congestion, and
+develop data-driven solutions to optimise intake flow. Potential outcomes may include process
+improvements, targeted infrastructure (capex) investments, or a combination of both to ensure
+a more efficient and farmer-centric operation.
+Project Briefing
+The central question for this project is: how can we optimize the goods-in process at our
+Lüchow facility to eliminate congestion, improve operational efficiency, and ensure a safe and
+reliable intake flow for all stakeholders?
+Students will be asked to analyze the current end-to-end intake process, taking into account the
+complexity arising from two distinct delivery streams: direct deliveries from our farmer-owners
+and inbound logistics managed by third-party service providers. The project should identify root
+causes of traffic jams and inefficiencies, considering factors such as arrival patterns,
+scheduling practices, unloading capacity, infrastructure constraints, and process design. In this
+sense it offers an excellent opportunity to apply business analytics techniques—such as
+queuing theory, forecasting, and simulation—to solve a real industrial challenge with clear
+operational and strategic impact.
+This is a major operational priority for the factory, and the local team is already actively working
+on the topic. As a result, there is an existing base of data and internal insights available.
+However, students are strongly encouraged to go beyond this and collect additional data
+directly from stakeholders—such as site personnel, drivers, farmers, and logistics partners—to
+develop an independent, well-rounded perspective and ensure robust, evidence-based
+recommendations.
+The expected outcome is a set of data-driven, actionable recommendations that enable a
+smooth and predictable goods-in operation. This is not only critical for improving day-to-day
+efficiency and safety at the factory, but also a key prerequisite for any future capacity expansion
+at the site.
+The primary deliverable should be a structured bottleneck analysis grounded in quantitative
+data rather than assumptions or anecdotal evidence. Based on this analysis, students should
+develop and evaluate concrete solution options. These may include process optimizations (e.g.,
+improved scheduling or queuing systems), targeted infrastructure investments (capex), or a
+combination of both. Where possible, recommendations should be supported by scenario
+analysis, cost-benefit considerations, and implementation roadmaps.
+The final output is expected to be a concise presentation suitable for a board-level audience,
+supported by detailed analytical appendices. Additional useful work products could include
+process maps, data models, simulation outputs, or decision-support tools.
+Students are encouraged to engage with key stakeholders, including site management,
+operational staff, and potentially representatives of our farmer base or logistics partners, to
+ensure a well-rounded understanding of the current challenges and practical feasibility of
+proposed solutions.
+Skills needed for the Project
+Analytical thinking & Problem solving - Critical thinking & Creativity - Effective communication
+and presentation skills - Pragmatism - Interest in logistics, operations and process optimization
+desirable
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+Strivolabs
+Website
+https://www.strivolabs.com/
+Project description
+Other;Innovation;
+Background to Company and Project
+Strivo Labs is currently undergoing a digital transformation to move from a manual,
+administrative-heavy recruitment model to an event-driven "Recruitment Operating System"
+(ROS). We are integrating AI-native evaluation tools and automated financial workflows to scale
+our placement capacity without increasing headcount.
+Project Briefing
+How can a mid-sized recruitment firm effectively integrate AI-orchestrated evaluation and
+automated financial workflows to achieve a 4x increase in placement velocity while maintaining
+rigorous quality standards?
+Scope: The student team will conduct a strategic audit of our "Recruitment Operating System"
+(ROS). This includes validating our event-driven architecture (Phase 1: Revenue Automation),
+benchmarking our AI-led interviewing logic (Phase 3) against global industry standards, and
+identifying potential risks in "Human-in-the-Loop" checkpoints.
+Outcomes: We envisage this project providing us with a validated scalability roadmap, a global
+competitor benchmarking report on AI talent solutions, and a risk-mitigation framework for AI-
+led decision-making.
+Deliverables: > 1. A comprehensive Strategic Audit Report of the Strivo ROS.
+2. A Market Intelligence report on emerging AI recruitment trends.
+3. A Change Management framework for our internal team transitioning from execution to
+system oversight.
+Skills needed for the Project
+Strategic Analysis, Digital Transformation, Business Process Mapping, Data Analytics, and
+Market Research.
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+Strivolabs
+Website
+https://www.strivolabs.com/
+Project description
+Innovation;Strategy;
+Background to Company and Project
+Strivolabs is at a critical inflection point. Originally founded as a technical solutions provider, we
+are evolving into a tech-enabled talent ecosystem. We are currently integrating an AI-native
+"Recruitment Operating System" (ROS) to automate our core operations. However, this shift
+requires a total organizational realignment. We need an external perspective to audit our entire
+business model—including our value proposition, operational efficiency, and market
+positioning—to ensure we are structured for global scalability.
+Project Briefing
+Research Question: How can Strivo Labs successfully transition from a boutique service agency
+to a scalable, tech-enabled talent platform while optimizing operations, marketing, and
+financial sustainability?
+Scope of the "Whole Business" Audit:
+Strategic Positioning: An external review of Strivo Labs’ brand and value proposition. How do we
+differentiate ourselves against global and local competitors?
+Operational Excellence: An audit of our move to AI-automation. Beyond the code, how should
+our people and processes change to support this new model?
+Market Expansion & Marketing: A fresh look at our client acquisition strategy. Are there
+untapped sectors or geographic markets (e.g., UK/Europe) where our vetted African talent
+model would thrive?
+Financial Modeling: A review of our two-tier revenue model (Mobility vs. Success fees) to ensure
+long-term profitability and healthy cash flow.
+Deliverables:
+A "Strivolabs 2026 Strategy Playbook": A comprehensive document covering market positioning,
+operational workflows, and a 24-month growth roadmap.
+Marketing & Client Acquisition Framework: Actionable insights on how to "Start Attracting" high-
+value enterprise clients.
+Risk & Change Management Report: Identifying organizational bottlenecks as we transition to
+an AI-hybrid workforce.
+Skills needed for the Project
+Ability to conduct a 360-degree organizational audit and identify structural bottlenecks.
+Experience with strategic frameworks (e.g., SWOT, PESTEL, McKinsey 7S) to evaluate business
+readiness for scaling.
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+SynX Therapeutics Ltd
+Website
+https://synx-tx.com/
+Project description
+Entrepreneurship;Innovation;Strategy;Healthcare;
+Background to Company and Project
+SynX Therapeutics is building a programmable discovery platform for peptide-like therapeutics
+(“SynPeps”) using engineered translation systems combined with AI-enabled optimisation. The
+platform is designed to enable access to non-canonical chemistry and to address historical
+limitations of peptides, including stability, permeability, and immunogenicity.
+The company has raised $2.35 million from a group of leading technology entrepreneurs,
+venture capital investors, and life science investors. This capital has supported initial platform
+development and early validation work.
+As SynX prepares for its Seed round, a central strategic decision must now be made: which
+therapeutic indications should anchor the company’s initial clinical programmes?
+This decision will shape capital allocation, development sequencing, partnering discussions,
+and the overall investor narrative.
+Project Briefing
+SynX Therapeutics is preparing for its next fundraising round and must define a clear and
+defensible clinical entry strategy. The company has developed a programmable peptide
+discovery platform and has identified a defined set of 8 therapeutic indications where the
+technology may offer meaningful differentiation. These candidate indications differ
+substantially in biological rationale, development timelines, regulatory complexity, competitive
+intensity, and capital requirements. A structured prioritisation is required to determine which
+programmes should anchor the company’s next phase of development.
+The project will address the following question: which indications should SynX prioritise to
+achieve (i) a capital-efficient first-in-human proof point and (ii) long-term platform value
+creation? The company is considering a dual-track approach. The first track is intended to
+deliver early clinical validation and reduce perceived platform risk through a focused and
+efficient development pathway. The second track is intended to maximise strategic and
+economic upside by selecting an indication that demonstrates the broader potential of the
+platform. The student team will evaluate the shortlisted indications and recommend one
+candidate for each track.
+The analysis should be comparative and evidence-based. The team is expected to design a
+structured evaluation framework that captures platform fit, clinical and regulatory pathway
+considerations, economic attractiveness, competitive landscape, and strategic positioning. All
+assumptions should be explicit and consistently applied across indications. High-level
+quantitative modelling should be included, covering total and serviceable addressable market
+estimates, indicative development timelines to Phase II proof-of-concept, and approximate
+capital requirements to key inflection points. Sensitivity analysis should be applied to the most
+material assumptions to test the robustness of conclusions.
+In addition to desk research and modelling, the team is encouraged to conduct a limited
+number of targeted interviews with relevant stakeholders, such as clinical key opinion leaders
+or former pharmaceutical business development professionals. The purpose of these
+interviews is to validate core assumptions regarding clinical feasibility, adoption dynamics,
+competitive differentiation, and partnering attractiveness. Interviews should be structured and
+hypothesis-driven, with insights integrated into the comparative analysis.
+The expected output is an investor-ready presentation of approximately 15–20 slides, supported
+by detailed analytical appendices. The presentation should clearly describe the evaluation
+framework, summarise the comparative analysis, outline the capital and timeline implications
+of the recommended programmes, and articulate the principal risks and trade-offs. The
+recommendation should be logically argued and directly usable in fundraising discussions.
+Supporting materials should include a transparent quantitative model with documented
+assumptions and sources.
+Skills needed for the Project
+The project requires a team with strong analytical and quantitative capability, including the
+ability to build and stress-test market models (e.g., TAM/SAM), estimate development timelines
+and capital requirements at a high level, and perform sensitivity analysis using Excel or
+equivalent tools. The team should be comfortable conducting structured competitive and
+industry analysis and translating complex inputs into clear, defensible strategic
+recommendations. Familiarity with pharmaceutical development pathways, regulatory
+considerations, and basic biotech economics is preferred, although deep scientific expertise is
+not required. In addition, the team should be able to design and conduct focused stakeholder or
+KOL interviews and synthesise qualitative insights into the broader analytical framework. The
+final output should reflect clear reasoning, disciplined assumptions, and concise
+communication suitable for an investor-facing context.
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+the Design Museum
+Website
+designmuseum.org
+Project description
+Data Analysis;Marketing;Strategy;
+Background to Company and Project
+The Design Museum is a leading cultural institution in London, attracting a diverse audience
+through a dynamic programme of temporary exhibitions that explore contemporary design,
+innovation, and creativity. These exhibitions vary significantly in theme, scale, and public
+appeal, making them a core driver of visitor engagement, revenue generation, and brand
+visibility.
+In recent years, the museum has experienced increasing variability in visitor numbers across
+different exhibitions. This fluctuation is influenced by multiple factors - seasonality, marketing
+effectiveness, competing cultural events, public holidays, weather patterns, and the inherent
+popularity of specific exhibition topics. As the museum continues to expand its programming
+and operate in a competitive cultural landscape, the ability to accurately forecast visitor
+attendance has become strategically important.
+Operational Planning Complexity
+Unpredictable visitor numbers make it difficult to plan staffing, manage capacity, and optimise
+front‑of‑house operations. A forecasting model would support smoother operational
+decision‑making.
+Revenue and Resource Optimisation
+Temporary exhibitions drive ticket sales, retail performance, café demand, and membership
+conversions. More accurate forecasts would enable better budgeting and resource allocation.
+Strategic Exhibition Planning
+Understanding the drivers of visitor behaviour would help the museum evaluate exhibition
+concepts, anticipate demand, and refine programming strategy.
+Data‑Driven Decision Making
+The museum holds valuable historical data but lacks a structured, analytical approach to
+converting it into actionable insights. This project presents an opportunity to build internal
+capability.
+External Factors and Market Dynamics
+London’s cultural sector is highly competitive, with many institutions hosting major exhibitions
+simultaneously. A forecasting model would help the museum anticipate the impact of external
+events and trends.
+Opportunity for Innovation
+With advances in analytics and machine learning, the museum can adopt modern forecasting
+techniques that go beyond traditional intuition‑based planning.
+This project therefore represents a timely opportunity to transform how the Design Museum
+predicts demand, enabling more confident decision‑making and supporting long‑term
+organisational resilience.
+Project Briefing
+Forecasting Temporary Exhibition Visitors at the Design Museum
+The Design Museum is seeking support in developing a robust, data‑driven forecasting model to
+predict visitor numbers for future temporary exhibitions. Temporary exhibitions are central to
+the museum’s public offer and financial sustainability, yet attendance varies significantly
+depending on theme, timing, marketing activity, and external factors. This variability makes it
+challenging to plan staffing, manage capacity, forecast revenue, and optimise operational
+resources.
+Core Question for Students
+How can the Design Museum accurately forecast visitor numbers for upcoming temporary
+exhibitions using historical data, exhibition characteristics, and relevant external variables?
+The project should explore which factors most strongly influence attendance and develop a
+predictive model (or suite of models) that the museum can use to anticipate demand under
+different scenarios. Students are encouraged to test multiple analytical approaches, justify
+their assumptions, and provide evidence‑based recommendations, in line with the
+programme’s emphasis on “well‑reasoned, evidence‑based conclusions.”
+Skills needed for the Project
+To deliver this project effectively, students will need a blend of analytical and interpersonal
+skills that reflect the Design Museum’s values of curiosity, impact, empathy, and collaboration.
+Analytical & Technical Skills: Strong quantitative analysis and problem‑solving abilities.
+Experience with forecasting or statistical modelling using tools such as Python, R, or Excel.
+Ability to work with and interpret historical datasets. Strategic & Business Insight: Capacity to
+translate analytical findings into practical recommendations that create real organisational
+impact. Understanding of how forecasting supports operational planning and visitor
+experience. Communication & Collaboration: Clear communication skills to present insights to
+non‑technical stakeholders. A collaborative mindset, working closely with museum teams and
+showing empathy for operational realities. Mindset & Approach: Curiosity to explore patterns,
+test assumptions, and investigate what drives visitor behaviour. Willingness to iterate, refine,
+and co‑create solutions with museum staff.
+MSc Business Analytics – Consulting Project Briefs 2026
+Company Name
+TxODDS (UK)Limited
+Website
+https://txodds.net/
+Project description
+Innovation;Marketing;Data Analysis;Strategy;Sustainability;
+Background to Company and Project
+TxODDS is a B2B sports betting data company with 25 years of industry experience, operating
+from offices in London, Chicago, and Belgrade with over 250 employees globally. Our mission is
+to be the most trusted data infrastructure in the sports pricing ecosystem. We provide betting
+operators, trading firms, market makers, and professional bettors with the foundation to price
+with confidence, driven by industry-leading speed, accuracy, and reliability. Our clients include
+leading global betting operators such as bet365, William Hill, DraftKings, and Hong Kong Jockey
+Club and etc.
+TxODDS focuses on five core verticals: Ultra-low latency aggregated odds, scout-collected live
+scores, pricing management solutions, historical data, and TxLine—a blockchain-based data
+distribution platform built on Solana.
+The development of TxLine is driven by both opportunity and industry gaps. No sports data
+provider has yet successfully leveraged blockchain for data distribution. TxLine introduces a
+modular, unbundled sales model, allowing customers to purchase only the data they need,
+catering to varying budgets and use cases. Additionally, token-based payments reduce
+contractual friction and accelerate onboarding.This project aims to validate the commercial
+viability, scalability, and market adoption of this innovative model.
+Project Briefing
+This project offers students from Imperial College Business School the opportunity to
+collaborate directly with the TxLine project team at TxODDS London office, exploring and
+validating the commercial viability, scalability, and market adoption of this innovative
+blockchain-based data distribution model.
+Students will conduct structured market research, including interviews with potential customer
+groups, to understand different customer types, their specific data needs, and their willingness
+to adopt modular, token-based purchasing models. Based on these insights, students are
+expected to propose feasible sales strategies, product bundles, and marketing channels.
+Findings will be compiled into a comprehensive PowerPoint presentation with detailed
+appendices and delivered to the TxODDS steering committee and TxLine team, followed by a
+Q&A session.
+Unlike global sports data industry leaders such as Sportradar and Genius Sports, which
+emphasize product breadth, TxODDS focuses on the core value of sports betting data
+infrastructure: time-sensitive probability shifts with financial consequences. In other words, our
+value lies in enabling clients to act on opportunities and make profitable decisions in markets
+where outcomes change by the second. Leveraging this expertise, we provide ultra-fast
+aggregated odds and live scores collected by scouts, delivering unmatched speed, accuracy,
+and competitive edge.
+The full opening of sports betting in North America, the growth of prediction markets, and the
+rapid global adoption of blockchain technologies present a unique opportunity to reshape
+traditional sports betting data delivery and unlock innovative commercial models.
+Viewing sports betting as a time-sensitive, financially outcome-driven market also highlights
+potential adjacent market opportunities. The project encourages students to explore TxLine’s
+applications in related domains, such as financial trading or other real-time analytics sectors,
+where speed, reliability, and competitive advantage are equally critical.
+Skills needed for the Project
+Market Research & Interviewing Business Analysis & Strategic Thinking Data Analysis &
+Interpretation Communication & Presentation Innovation & Problem-Solving Teamwork &
+Project Management
